@@ -1,0 +1,17 @@
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\bin\Debug\net8.0-windows\DeltaCompass.exe
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\bin\Debug\net8.0-windows\DeltaCompass.deps.json
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\bin\Debug\net8.0-windows\DeltaCompass.runtimeconfig.json
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\bin\Debug\net8.0-windows\DeltaCompass.dll
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\bin\Debug\net8.0-windows\DeltaCompass.pdb
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.FormPaginaPerfil.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.csproj.GenerateResource.cache
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.AssemblyInfoInputs.cache
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.AssemblyInfo.cs
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.csproj.CoreCompileInputs.cache
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.dll
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\refint\DeltaCompass.dll
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.pdb
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.genruntimeconfig.cache
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\ref\DeltaCompass.dll
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.Properties.Resources.resources

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaCompass", "DeltaCompass\DeltaCompass.csproj", "{BC65A745-FD4B-484F-BABE-C21D64E271DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC65A745-FD4B-484F-BABE-C21D64E271DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC65A745-FD4B-484F-BABE-C21D64E271DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC65A745-FD4B-484F-BABE-C21D64E271DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC65A745-FD4B-484F-BABE-C21D64E271DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B61D7EE-4D7C-4AC2-843C-13E6F70A9596}
+	EndGlobalSection
+EndGlobal
