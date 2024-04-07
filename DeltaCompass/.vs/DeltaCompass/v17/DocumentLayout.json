@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Kaua\\OneDrive\\\u00C1rea de Trabalho\\DeltaCompass\\DeltaCompass\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC65A745-FD4B-484F-BABE-C21D64E271DF}|DeltaCompass\\DeltaCompass.csproj|c:\\users\\kaua\\onedrive\\\u00E1rea de trabalho\\deltacompass\\deltacompass\\deltacompass\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BC65A745-FD4B-484F-BABE-C21D64E271DF}|DeltaCompass\\DeltaCompass.csproj|c:\\users\\kaua\\onedrive\\\u00E1rea de trabalho\\deltacompass\\deltacompass\\deltacompass\\sidebarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC65A745-FD4B-484F-BABE-C21D64E271DF}|DeltaCompass\\DeltaCompass.csproj|solutionrelative:deltacompass\\sidebarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC65A745-FD4B-484F-BABE-C21D64E271DF}|DeltaCompass\\DeltaCompass.csproj|c:\\users\\kaua\\onedrive\\\u00E1rea de trabalho\\deltacompass\\deltacompass\\deltacompass\\sidebarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC65A745-FD4B-484F-BABE-C21D64E271DF}|DeltaCompass\\DeltaCompass.csproj|solutionrelative:deltacompass\\sidebarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC65A745-FD4B-484F-BABE-C21D64E271DF}|DeltaCompass\\DeltaCompass.csproj|C:\\Users\\Kaua\\OneDrive\\\u00C1rea de Trabalho\\DeltaCompass\\DeltaCompass\\deltacompass\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BC65A745-FD4B-484F-BABE-C21D64E271DF}|DeltaCompass\\DeltaCompass.csproj|solutionrelative:deltacompass\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -14,11 +22,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SidebarControl.cs",
+              "DocumentMoniker": "C:\\Users\\Kaua\\OneDrive\\\u00C1rea de Trabalho\\DeltaCompass\\DeltaCompass\\DeltaCompass\\SidebarControl.cs",
+              "RelativeDocumentMoniker": "DeltaCompass\\SidebarControl.cs",
+              "ToolTip": "C:\\Users\\Kaua\\OneDrive\\\u00C1rea de Trabalho\\DeltaCompass\\DeltaCompass\\DeltaCompass\\SidebarControl.cs",
+              "RelativeToolTip": "DeltaCompass\\SidebarControl.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T02:06:37.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SidebarControl.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Kaua\\OneDrive\\\u00C1rea de Trabalho\\DeltaCompass\\DeltaCompass\\DeltaCompass\\SidebarControl.cs",
+              "RelativeDocumentMoniker": "DeltaCompass\\SidebarControl.cs",
+              "ToolTip": "C:\\Users\\Kaua\\OneDrive\\\u00C1rea de Trabalho\\DeltaCompass\\DeltaCompass\\DeltaCompass\\SidebarControl.cs [Projeto]",
+              "RelativeToolTip": "DeltaCompass\\SidebarControl.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T02:07:55.225Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Kaua\\OneDrive\\\u00C1rea de Trabalho\\DeltaCompass\\DeltaCompass\\DeltaCompass\\Form1.cs",
               "RelativeDocumentMoniker": "DeltaCompass\\Form1.cs",
