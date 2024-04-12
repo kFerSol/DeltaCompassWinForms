@@ -17,3 +17,4 @@ C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.Properties.Resources.resources
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.SidebarControl.resources
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.sourcelink.json
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.TitleBarControl.resources

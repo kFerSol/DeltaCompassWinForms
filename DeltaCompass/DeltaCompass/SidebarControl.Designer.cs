@@ -50,6 +50,7 @@
             panel2 = new Panel();
             label1 = new Label();
             sidebarTimer = new System.Windows.Forms.Timer(components);
+            panel9 = new Panel();
             sidebar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)sidebarBtnAbrir).BeginInit();
@@ -72,6 +73,7 @@
             sidebar.Controls.Add(panel7);
             sidebar.Controls.Add(panel8);
             sidebar.Controls.Add(panel2);
+            sidebar.Controls.Add(panel9);
             sidebar.FlowDirection = FlowDirection.TopDown;
             sidebar.Location = new Point(0, 0);
             sidebar.MaximumSize = new Size(272, 456);
@@ -300,6 +302,13 @@
             sidebarTimer.Interval = 10;
             sidebarTimer.Tick += sidebarTimer_Tick;
             // 
+            // panel9
+            // 
+            panel9.Location = new Point(277, 3);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(10, 453);
+            panel9.TabIndex = 8;
+            // 
             // SidebarControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -346,5 +355,6 @@
         private Button configuracaoBtn;
         private System.Windows.Forms.Timer sidebarTimer;
         private PictureBox sidebarBtnAbrir;
+        private Panel panel9;
     }
 }
