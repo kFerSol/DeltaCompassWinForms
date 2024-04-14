@@ -83,6 +83,16 @@ namespace DeltaCompass.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap close_delta2 {
+            get {
+                object obj = ResourceManager.GetObject("close-delta2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap delta_logo {
             get {
                 object obj = ResourceManager.GetObject("delta-logo", resourceCulture);
@@ -123,6 +133,16 @@ namespace DeltaCompass.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap minus_delta1 {
+            get {
+                object obj = ResourceManager.GetObject("minus-delta1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shield_delta {
             get {
                 object obj = ResourceManager.GetObject("shield-delta", resourceCulture);
@@ -146,6 +166,16 @@ namespace DeltaCompass.Properties {
         internal static System.Drawing.Bitmap square_delta {
             get {
                 object obj = ResourceManager.GetObject("square-delta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap square_delta1 {
+            get {
+                object obj = ResourceManager.GetObject("square-delta1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

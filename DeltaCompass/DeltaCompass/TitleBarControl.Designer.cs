@@ -51,7 +51,7 @@
             // fecharBtn
             // 
             fecharBtn.BackColor = Color.FromArgb(28, 28, 28);
-            fecharBtn.Image = Properties.Resources.close_delta1;
+            fecharBtn.Image = Properties.Resources.close_delta2;
             fecharBtn.Location = new Point(-15, -8);
             fecharBtn.Name = "fecharBtn";
             fecharBtn.Size = new Size(75, 47);
@@ -73,12 +73,15 @@
             // maximizarBtn
             // 
             maximizarBtn.BackColor = Color.FromArgb(28, 28, 28);
-            maximizarBtn.Image = Properties.Resources.square_delta;
+            maximizarBtn.Image = Properties.Resources.square_delta1;
             maximizarBtn.Location = new Point(-15, -8);
             maximizarBtn.Name = "maximizarBtn";
             maximizarBtn.Size = new Size(75, 47);
             maximizarBtn.TabIndex = 1;
             maximizarBtn.UseVisualStyleBackColor = false;
+            maximizarBtn.Click += maximizarBtn_Click;
+            maximizarBtn.MouseEnter += maximizarBtn_MouseEnter;
+            maximizarBtn.MouseLeave += maximizarBtn_MouseLeave;
             // 
             // panel3
             // 
@@ -92,24 +95,31 @@
             // minimizarBtn
             // 
             minimizarBtn.BackColor = Color.FromArgb(28, 28, 28);
-            minimizarBtn.Image = Properties.Resources.minus_delta;
+            minimizarBtn.Image = Properties.Resources.minus_delta1;
             minimizarBtn.Location = new Point(-15, -8);
             minimizarBtn.Name = "minimizarBtn";
             minimizarBtn.Size = new Size(75, 47);
             minimizarBtn.TabIndex = 1;
             minimizarBtn.UseVisualStyleBackColor = false;
+            minimizarBtn.Click += minimizarBtn_Click;
+            minimizarBtn.MouseEnter += minimizarBtn_MouseEnter;
+            minimizarBtn.MouseLeave += minimizarBtn_MouseLeave;
             // 
             // TitleBarControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(47, 47, 47);
+            BackColor = Color.FromArgb(17, 17, 17);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
             ForeColor = Color.CornflowerBlue;
             Name = "TitleBarControl";
             Size = new Size(800, 30);
+            Load += TitleBarControl_Load;
+            MouseDown += TitleBarControl_MouseDown;
+            MouseMove += TitleBarControl_MouseMove;
+            MouseUp += TitleBarControl_MouseUp;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel3.ResumeLayout(false);

@@ -49,8 +49,8 @@
             configuracaoBtn = new Button();
             panel2 = new Panel();
             label1 = new Label();
-            sidebarTimer = new System.Windows.Forms.Timer(components);
             panel9 = new Panel();
+            sidebarTimer = new System.Windows.Forms.Timer(components);
             sidebar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)sidebarBtnAbrir).BeginInit();
@@ -74,12 +74,13 @@
             sidebar.Controls.Add(panel8);
             sidebar.Controls.Add(panel2);
             sidebar.Controls.Add(panel9);
+            sidebar.Dock = DockStyle.Left;
             sidebar.FlowDirection = FlowDirection.TopDown;
             sidebar.Location = new Point(0, 0);
-            sidebar.MaximumSize = new Size(272, 456);
+            sidebar.MaximumSize = new Size(272, 0);
             sidebar.MinimumSize = new Size(48, 456);
             sidebar.Name = "sidebar";
-            sidebar.Size = new Size(272, 456);
+            sidebar.Size = new Size(48, 456);
             sidebar.TabIndex = 0;
             // 
             // panel1
@@ -100,7 +101,6 @@
             sidebarBtnAbrir.Size = new Size(42, 40);
             sidebarBtnAbrir.TabIndex = 4;
             sidebarBtnAbrir.TabStop = false;
-            sidebarBtnAbrir.Visible = false;
             sidebarBtnAbrir.Click += deltaLogo_Click;
             // 
             // label2
@@ -151,6 +151,7 @@
             perfilBtn.Text = "         Perfil";
             perfilBtn.TextAlign = ContentAlignment.MiddleLeft;
             perfilBtn.UseVisualStyleBackColor = false;
+            perfilBtn.Click += perfilBtn_Click;
             // 
             // panel5
             // 
@@ -293,14 +294,9 @@
             label1.BackColor = Color.FromArgb(46, 43, 194);
             label1.Location = new Point(6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(2, 454);
+            label1.Size = new Size(2, 1500);
             label1.TabIndex = 2;
             label1.Click += label1_Click;
-            // 
-            // sidebarTimer
-            // 
-            sidebarTimer.Interval = 10;
-            sidebarTimer.Tick += sidebarTimer_Tick;
             // 
             // panel9
             // 
@@ -309,16 +305,22 @@
             panel9.Size = new Size(10, 453);
             panel9.TabIndex = 8;
             // 
+            // sidebarTimer
+            // 
+            sidebarTimer.Interval = 10;
+            sidebarTimer.Tick += sidebarTimer_Tick;
+            // 
             // SidebarControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(28, 28, 28);
             Controls.Add(sidebar);
-            MaximumSize = new Size(272, 456);
+            MaximumSize = new Size(272, 0);
             MinimumSize = new Size(48, 456);
             Name = "SidebarControl";
             Size = new Size(272, 456);
+            Resize += SidebarControl_Resize;
             sidebar.ResumeLayout(false);
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)sidebarBtnAbrir).EndInit();
