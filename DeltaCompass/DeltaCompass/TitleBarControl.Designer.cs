@@ -65,10 +65,11 @@
             // 
             panel2.Controls.Add(maximizarBtn);
             panel2.Dock = DockStyle.Right;
-            panel2.Location = new Point(712, 0);
+            panel2.Location = new Point(668, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(44, 30);
             panel2.TabIndex = 1;
+            panel2.Visible = false;
             // 
             // maximizarBtn
             // 
@@ -87,7 +88,7 @@
             // 
             panel3.Controls.Add(minimizarBtn);
             panel3.Dock = DockStyle.Right;
-            panel3.Location = new Point(668, 0);
+            panel3.Location = new Point(712, 0);
             panel3.Name = "panel3";
             panel3.Size = new Size(44, 30);
             panel3.TabIndex = 2;
@@ -110,8 +111,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(17, 17, 17);
-            Controls.Add(panel3);
             Controls.Add(panel2);
+            Controls.Add(panel3);
             Controls.Add(panel1);
             ForeColor = Color.CornflowerBlue;
             Name = "TitleBarControl";

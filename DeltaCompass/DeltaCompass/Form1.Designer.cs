@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPaginaPerfil));
-            sidebarControl1 = new SidebarControl();
             titleBarControl1 = new TitleBarControl();
-            flowLayoutPanel1 = new FlowLayoutPanel();
             panel1 = new Panel();
             panel2 = new Panel();
+            pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
+            panel8 = new Panel();
+            label1 = new Label();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            panel9 = new Panel();
+            label16 = new Label();
             panel7 = new Panel();
             label15 = new Label();
             label14 = new Label();
@@ -54,31 +57,21 @@
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
-            panel8 = new Panel();
-            label1 = new Label();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            label16 = new Label();
+            roundControl2 = new RoundControl();
+            sidebarControl1 = new SidebarControl();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel8.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
+            panel9.SuspendLayout();
             panel7.SuspendLayout();
             panel6.SuspendLayout();
             panel5.SuspendLayout();
             panel4.SuspendLayout();
             panel3.SuspendLayout();
-            panel8.SuspendLayout();
             SuspendLayout();
-            // 
-            // sidebarControl1
-            // 
-            sidebarControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            sidebarControl1.BackColor = Color.FromArgb(28, 28, 28);
-            sidebarControl1.Location = new Point(0, 30);
-            sidebarControl1.MaximumSize = new Size(272, 456);
-            sidebarControl1.MinimumSize = new Size(48, 456);
-            sidebarControl1.Name = "sidebarControl1";
-            sidebarControl1.Size = new Size(48, 456);
-            sidebarControl1.TabIndex = 0;
             // 
             // titleBarControl1
             // 
@@ -90,63 +83,125 @@
             titleBarControl1.Size = new Size(800, 30);
             titleBarControl1.TabIndex = 1;
             // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.BackColor = Color.Maroon;
-            flowLayoutPanel1.Dock = DockStyle.Fill;
-            flowLayoutPanel1.FlowDirection = FlowDirection.BottomUp;
-            flowLayoutPanel1.Location = new Point(0, 0);
-            flowLayoutPanel1.Margin = new Padding(0);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(800, 486);
-            flowLayoutPanel1.TabIndex = 2;
-            // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(28, 28, 28);
+            panel1.BackColor = SystemColors.Control;
             panel1.Controls.Add(panel2);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(panel8);
             panel1.Controls.Add(panel7);
             panel1.Controls.Add(panel6);
             panel1.Controls.Add(panel5);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(panel3);
-            panel1.Controls.Add(panel8);
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(0, 0);
+            panel1.Controls.Add(roundControl2);
+            panel1.Location = new Point(44, 33);
             panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 486);
+            panel1.Size = new Size(753, 453);
             panel1.TabIndex = 0;
             // 
             // panel2
             // 
             panel2.Anchor = AnchorStyles.None;
-            panel2.Controls.Add(pictureBox1);
-            panel2.Location = new Point(86, 57);
+            panel2.BackColor = Color.FromArgb(28, 28, 28);
+            panel2.Controls.Add(pictureBox2);
+            panel2.Location = new Point(37, 115);
             panel2.Name = "panel2";
-            panel2.Size = new Size(185, 110);
-            panel2.TabIndex = 5;
+            panel2.Size = new Size(208, 49);
+            panel2.TabIndex = 8;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.token_1__2_;
+            pictureBox2.Location = new Point(24, -103);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(155, 148);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 9;
+            pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            pictureBox1.ErrorImage = (Image)resources.GetObject("pictureBox1.ErrorImage");
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(39, 4);
+            pictureBox1.Anchor = AnchorStyles.Top;
+            pictureBox1.Image = Properties.Resources.token_1__2_;
+            pictureBox1.Location = new Point(61, 13);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(112, 103);
+            pictureBox1.Size = new Size(155, 148);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 6;
+            pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
+            // 
+            // panel8
+            // 
+            panel8.Anchor = AnchorStyles.None;
+            panel8.BackColor = Color.FromArgb(28, 28, 28);
+            panel8.Controls.Add(label1);
+            panel8.Controls.Add(tableLayoutPanel1);
+            panel8.Location = new Point(259, 134);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(477, 302);
+            panel8.TabIndex = 6;
+            // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.None;
+            label1.AutoSize = true;
+            label1.Font = new Font("ModeSeven", 14F);
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(11, 23);
+            label1.Name = "label1";
+            label1.Size = new Size(222, 19);
+            label1.TabIndex = 0;
+            label1.Text = "Configurações Salvas";
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.Anchor = AnchorStyles.None;
+            tableLayoutPanel1.BackColor = Color.FromArgb(28, 28, 28);
+            tableLayoutPanel1.ColumnCount = 3;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel1.Controls.Add(panel9, 0, 0);
+            tableLayoutPanel1.Location = new Point(11, 51);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 58.4677429F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 41.5322571F));
+            tableLayoutPanel1.Size = new Size(448, 248);
+            tableLayoutPanel1.TabIndex = 0;
+            // 
+            // panel9
+            // 
+            panel9.Controls.Add(label16);
+            panel9.Location = new Point(0, 0);
+            panel9.Margin = new Padding(0);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(149, 144);
+            panel9.TabIndex = 1;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Poppins", 10F);
+            label16.ForeColor = SystemColors.Control;
+            label16.Location = new Point(14, 119);
+            label16.Name = "label16";
+            label16.Size = new Size(122, 25);
+            label16.TabIndex = 2;
+            label16.Text = "Counter Strike 2";
             // 
             // panel7
             // 
             panel7.Anchor = AnchorStyles.None;
+            panel7.BackColor = Color.FromArgb(28, 28, 28);
             panel7.Controls.Add(label15);
             panel7.Controls.Add(label14);
             panel7.Controls.Add(label13);
             panel7.Controls.Add(label11);
             panel7.Controls.Add(label12);
-            panel7.Location = new Point(87, 351);
+            panel7.Location = new Point(51, 345);
             panel7.Name = "panel7";
             panel7.Size = new Size(184, 92);
             panel7.TabIndex = 4;
@@ -210,9 +265,10 @@
             // panel6
             // 
             panel6.Anchor = AnchorStyles.None;
+            panel6.BackColor = Color.FromArgb(28, 28, 28);
             panel6.Controls.Add(label10);
             panel6.Controls.Add(label9);
-            panel6.Location = new Point(87, 288);
+            panel6.Location = new Point(51, 282);
             panel6.Name = "panel6";
             panel6.Size = new Size(184, 61);
             panel6.TabIndex = 3;
@@ -242,9 +298,10 @@
             // panel5
             // 
             panel5.Anchor = AnchorStyles.None;
+            panel5.BackColor = Color.FromArgb(28, 28, 28);
             panel5.Controls.Add(label8);
             panel5.Controls.Add(label6);
-            panel5.Location = new Point(187, 224);
+            panel5.Location = new Point(151, 218);
             panel5.Name = "panel5";
             panel5.Size = new Size(84, 58);
             panel5.TabIndex = 2;
@@ -274,9 +331,10 @@
             // panel4
             // 
             panel4.Anchor = AnchorStyles.None;
+            panel4.BackColor = Color.FromArgb(28, 28, 28);
             panel4.Controls.Add(label7);
             panel4.Controls.Add(label5);
-            panel4.Location = new Point(87, 224);
+            panel4.Location = new Point(51, 218);
             panel4.Name = "panel4";
             panel4.Size = new Size(83, 58);
             panel4.TabIndex = 1;
@@ -306,10 +364,11 @@
             // panel3
             // 
             panel3.Anchor = AnchorStyles.None;
+            panel3.BackColor = Color.FromArgb(28, 28, 28);
             panel3.Controls.Add(label4);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(label2);
-            panel3.Location = new Point(87, 173);
+            panel3.Location = new Point(51, 167);
             panel3.Name = "panel3";
             panel3.Size = new Size(184, 50);
             panel3.TabIndex = 0;
@@ -346,51 +405,29 @@
             label2.TabIndex = 0;
             label2.Text = "Apelido do Jogador";
             // 
-            // panel8
+            // roundControl2
             // 
-            panel8.Anchor = AnchorStyles.None;
-            panel8.Controls.Add(label1);
-            panel8.Controls.Add(tableLayoutPanel1);
-            panel8.Location = new Point(294, 121);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(477, 304);
-            panel8.TabIndex = 6;
+            roundControl2.Anchor = AnchorStyles.Bottom;
+            roundControl2.BackColor = SystemColors.Control;
+            roundControl2.BackgroundColor = Color.FromArgb(28, 28, 28);
+            roundControl2.BorderColor = Color.FromArgb(46, 43, 194);
+            roundControl2.BorderWidth = 5F;
+            roundControl2.Location = new Point(-9, 107);
+            roundControl2.Margin = new Padding(0);
+            roundControl2.Name = "roundControl2";
+            roundControl2.Radius = 10;
+            roundControl2.Size = new Size(772, 420);
+            roundControl2.TabIndex = 0;
             // 
-            // label1
+            // sidebarControl1
             // 
-            label1.Anchor = AnchorStyles.None;
-            label1.AutoSize = true;
-            label1.Font = new Font("ModeSeven", 14F);
-            label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(11, 24);
-            label1.Name = "label1";
-            label1.Size = new Size(222, 19);
-            label1.TabIndex = 0;
-            label1.Text = "Configurações Salvas";
-            // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.Anchor = AnchorStyles.None;
-            tableLayoutPanel1.ColumnCount = 3;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel1.Location = new Point(11, 52);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(448, 245);
-            tableLayoutPanel1.TabIndex = 0;
-            // 
-            // label16
-            // 
-            label16.BackColor = Color.FromArgb(46, 43, 194);
-            label16.Location = new Point(54, -507);
-            label16.Name = "label16";
-            label16.Size = new Size(2, 1500);
-            label16.TabIndex = 3;
-            label16.Resize += label16_Resize;
+            sidebarControl1.BackColor = Color.FromArgb(46, 43, 194);
+            sidebarControl1.Location = new Point(0, 33);
+            sidebarControl1.MaximumSize = new Size(274, 1000);
+            sidebarControl1.MinimumSize = new Size(50, 456);
+            sidebarControl1.Name = "sidebarControl1";
+            sidebarControl1.Size = new Size(50, 886);
+            sidebarControl1.TabIndex = 7;
             // 
             // FormPaginaPerfil
             // 
@@ -400,19 +437,22 @@
             ClientSize = new Size(800, 486);
             Controls.Add(sidebarControl1);
             Controls.Add(titleBarControl1);
-            Controls.Add(label16);
             Controls.Add(panel1);
-            Controls.Add(flowLayoutPanel1);
             FormBorderStyle = FormBorderStyle.None;
             MinimumSize = new Size(0, 486);
             Name = "FormPaginaPerfil";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            Load += FormPaginaPerfil_Load;
             Resize += FormPaginaPerfil_Resize;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel8.ResumeLayout(false);
+            panel8.PerformLayout();
+            tableLayoutPanel1.ResumeLayout(false);
+            panel9.ResumeLayout(false);
+            panel9.PerformLayout();
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
             panel6.ResumeLayout(false);
@@ -423,19 +463,12 @@
             panel4.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            panel8.ResumeLayout(false);
-            panel8.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private SidebarControl sidebarControl1;
         private TitleBarControl titleBarControl1;
-        private FlowLayoutPanel flowLayoutPanel1;
         private Panel panel1;
-        private Label label1;
-        private TableLayoutPanel tableLayoutPanel1;
         private Panel panel3;
         private Label label3;
         private Label label2;
@@ -455,9 +488,15 @@
         private Label label15;
         private Label label14;
         private Label label13;
+        private Panel panel8;
+        private Label label1;
+        private TableLayoutPanel tableLayoutPanel1;
+        private RoundControl roundControl2;
+        private SidebarControl sidebarControl1;
         private Panel panel2;
         private PictureBox pictureBox1;
-        private Panel panel8;
+        private PictureBox pictureBox2;
+        private Panel panel9;
         private Label label16;
     }
 }

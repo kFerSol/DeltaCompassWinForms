@@ -19,25 +19,22 @@ namespace DeltaCompass
 
         bool expandirSidebar = true;
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-            sidebar.Width = 272;
-            this.Width = sidebar.Width;
-        }
-
         private void sidebarTimer_Tick(object sender, EventArgs e)
         {
             Form parentForm = this.FindForm();
             if (parentForm != null && parentForm.Width > 1000 && sidebar.Width == 272)
             {
-
+                /*sidebar.Width = 272;
+                this.Width = sidebar.Width + 2;
+                panel2.Width = sidebar.Width;*/
             }
             else
             {
                 if (expandirSidebar)
                 {
                     sidebar.Width -= 10;
-                    this.Width = sidebar.Width;
+                    this.Width = sidebar.Width+2;
+                    panel2.Width = sidebar.Width;
                     if (sidebar.Width <= 48)
                     {
                         expandirSidebar = false;
@@ -49,7 +46,8 @@ namespace DeltaCompass
                 else
                 {
                     sidebar.Width += 10;
-                    this.Width = sidebar.Width;
+                    this.Width = sidebar.Width+2;
+                    panel2.Width = sidebar.Width;
                     sidebarBtnAbrir.Visible = false;
                     label2.Visible = true;
                     if (sidebar.Width >= 272)
@@ -83,7 +81,11 @@ namespace DeltaCompass
 
         private void SidebarControl_Resize(object sender, EventArgs e)
         {
-
+            Form parentForm = this.FindForm();
+            if(parentForm != null && parentForm.Width >= 1000)
+            {
+                sidebarTimer.Start();
+            }
         }
 
         public event EventHandler conversaoAberta;
@@ -97,8 +99,10 @@ namespace DeltaCompass
         private void perfilBtn_Click(object sender, EventArgs e)
         {
             Form conversao = new Form();
-            conversao.Show();
+            conversao.ShowDialog();
             ConversaoAberta(EventArgs.Empty);
+            /*Form parentForm = this.FindForm();
+            parentForm.Close();*/
         }
     }
 }

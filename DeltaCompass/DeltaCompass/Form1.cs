@@ -5,22 +5,15 @@ namespace DeltaCompass
         public FormPaginaPerfil()
         {
             InitializeComponent();
-            InitializeSideBar();
             titleBarControl1.MinimizarPagina += TitleBarControl1_MinimizarPagina;
             titleBarControl1.MaximizarPagina += TitleBarControl1_MaximizarPagina;
             this.Resize += FormPaginaPerfil_Resize;
             sidebarControl1.conversaoAberta += SidebarControl1_ConversaoAberta;
         }
 
-        private void SidebarControl1_ConversaoAberta(object sender, EventArgs e)
+        private void SidebarControl1_ConversaoAberta(object? sender, EventArgs e)
         {
-            this.Hide();
-        }
-
-        private void InitializeSideBar()
-        {
-            sidebarControl1 = new SidebarControl();
-            this.Controls.Add(sidebarControl1);
+            
         }
 
         private void TitleBarControl1_MinimizarPagina(object? sender, EventArgs e)
@@ -43,21 +36,29 @@ namespace DeltaCompass
             }
         }
 
-        private void FormPaginaPerfil_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void FormPaginaPerfil_Resize(object sender, EventArgs e)
         {
-            sidebarControl1.Width = this.Width;
-            sidebarControl1.Left = 0;
-            sidebarControl1.Height = this.ClientSize.Height;
+
         }
 
-        private void label16_Resize(object sender, EventArgs e)
+        private void roundControl1_MouseEnter(object sender, EventArgs e)
         {
+            //pictureBox4.Visible = true;
+        }
 
+        private void pictureBox4_MouseEnter(object sender, EventArgs e)
+        {
+           // pictureBox4.Visible = true;
+        }
+
+        private void roundControl1_MouseLeave(object sender, EventArgs e)
+        {
+            //pictureBox4.Visible = false;
+        }
+
+        private void pictureBox4_MouseLeave(object sender, EventArgs e)
+        {
+            //pictureBox4.Visible = false;
         }
     }
 }

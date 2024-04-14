@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            sidebarTimer = new System.Windows.Forms.Timer(components);
             sidebar = new FlowLayoutPanel();
             panel1 = new Panel();
             sidebarBtnAbrir = new PictureBox();
@@ -48,9 +49,6 @@
             panel8 = new Panel();
             configuracaoBtn = new Button();
             panel2 = new Panel();
-            label1 = new Label();
-            panel9 = new Panel();
-            sidebarTimer = new System.Windows.Forms.Timer(components);
             sidebar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)sidebarBtnAbrir).BeginInit();
@@ -60,11 +58,18 @@
             panel6.SuspendLayout();
             panel7.SuspendLayout();
             panel8.SuspendLayout();
-            panel2.SuspendLayout();
             SuspendLayout();
+            // 
+            // sidebarTimer
+            // 
+            sidebarTimer.Interval = 10;
+            sidebarTimer.Tick += sidebarTimer_Tick;
             // 
             // sidebar
             // 
+            sidebar.Anchor = AnchorStyles.Left;
+            sidebar.BackColor = Color.FromArgb(28, 28, 28);
+            sidebar.BackgroundImageLayout = ImageLayout.Zoom;
             sidebar.Controls.Add(panel1);
             sidebar.Controls.Add(panel3);
             sidebar.Controls.Add(panel5);
@@ -72,15 +77,14 @@
             sidebar.Controls.Add(panel6);
             sidebar.Controls.Add(panel7);
             sidebar.Controls.Add(panel8);
-            sidebar.Controls.Add(panel2);
-            sidebar.Controls.Add(panel9);
-            sidebar.Dock = DockStyle.Left;
             sidebar.FlowDirection = FlowDirection.TopDown;
+            sidebar.ForeColor = SystemColors.ActiveCaption;
             sidebar.Location = new Point(0, 0);
+            sidebar.Margin = new Padding(0);
             sidebar.MaximumSize = new Size(272, 0);
             sidebar.MinimumSize = new Size(48, 456);
             sidebar.Name = "sidebar";
-            sidebar.Size = new Size(48, 456);
+            sidebar.Size = new Size(48, 531);
             sidebar.TabIndex = 0;
             // 
             // panel1
@@ -88,15 +92,16 @@
             panel1.Controls.Add(sidebarBtnAbrir);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(sidebarBtnFechar);
-            panel1.Location = new Point(3, 3);
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(252, 61);
+            panel1.Size = new Size(239, 61);
             panel1.TabIndex = 0;
             // 
             // sidebarBtnAbrir
             // 
             sidebarBtnAbrir.Image = Properties.Resources.delta_logo;
-            sidebarBtnAbrir.Location = new Point(3, 17);
+            sidebarBtnAbrir.Location = new Point(8, 19);
             sidebarBtnAbrir.Name = "sidebarBtnAbrir";
             sidebarBtnAbrir.Size = new Size(42, 40);
             sidebarBtnAbrir.TabIndex = 4;
@@ -131,9 +136,10 @@
             // panel3
             // 
             panel3.Controls.Add(perfilBtn);
-            panel3.Location = new Point(3, 70);
+            panel3.Location = new Point(0, 61);
+            panel3.Margin = new Padding(0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(252, 55);
+            panel3.Size = new Size(239, 55);
             panel3.TabIndex = 3;
             // 
             // perfilBtn
@@ -156,9 +162,10 @@
             // panel5
             // 
             panel5.Controls.Add(ConversaoBtn);
-            panel5.Location = new Point(3, 131);
+            panel5.Location = new Point(0, 116);
+            panel5.Margin = new Padding(0);
             panel5.Name = "panel5";
-            panel5.Size = new Size(252, 55);
+            panel5.Size = new Size(239, 55);
             panel5.TabIndex = 5;
             // 
             // ConversaoBtn
@@ -180,9 +187,10 @@
             // panel4
             // 
             panel4.Controls.Add(buscarUsuarioBtn);
-            panel4.Location = new Point(3, 192);
+            panel4.Location = new Point(0, 171);
+            panel4.Margin = new Padding(0);
             panel4.Name = "panel4";
-            panel4.Size = new Size(252, 55);
+            panel4.Size = new Size(239, 55);
             panel4.TabIndex = 4;
             // 
             // buscarUsuarioBtn
@@ -204,9 +212,10 @@
             // panel6
             // 
             panel6.Controls.Add(claBtn);
-            panel6.Location = new Point(3, 253);
+            panel6.Location = new Point(0, 226);
+            panel6.Margin = new Padding(0);
             panel6.Name = "panel6";
-            panel6.Size = new Size(252, 55);
+            panel6.Size = new Size(239, 55);
             panel6.TabIndex = 4;
             // 
             // claBtn
@@ -227,11 +236,13 @@
             // 
             // panel7
             // 
+            panel7.BackColor = Color.FromArgb(28, 28, 28);
             panel7.Controls.Add(label3);
             panel7.Controls.Add(suporteBtn);
-            panel7.Location = new Point(3, 314);
+            panel7.Location = new Point(0, 281);
+            panel7.Margin = new Padding(0);
             panel7.Name = "panel7";
-            panel7.Size = new Size(252, 91);
+            panel7.Size = new Size(239, 91);
             panel7.TabIndex = 6;
             // 
             // label3
@@ -260,9 +271,10 @@
             // panel8
             // 
             panel8.Controls.Add(configuracaoBtn);
-            panel8.Location = new Point(3, 411);
+            panel8.Location = new Point(0, 372);
+            panel8.Margin = new Padding(0);
             panel8.Name = "panel8";
-            panel8.Size = new Size(252, 40);
+            panel8.Size = new Size(239, 40);
             panel8.TabIndex = 7;
             // 
             // configuracaoBtn
@@ -275,7 +287,7 @@
             configuracaoBtn.Location = new Point(-21, -11);
             configuracaoBtn.Name = "configuracaoBtn";
             configuracaoBtn.Padding = new Padding(20, 0, 0, 0);
-            configuracaoBtn.Size = new Size(290, 60);
+            configuracaoBtn.Size = new Size(279, 60);
             configuracaoBtn.TabIndex = 0;
             configuracaoBtn.Text = "          Configurações";
             configuracaoBtn.TextAlign = ContentAlignment.MiddleLeft;
@@ -283,43 +295,25 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(label1);
-            panel2.Location = new Point(261, 3);
+            panel2.BackColor = Color.FromArgb(28, 28, 28);
+            panel2.Location = new Point(0, 530);
+            panel2.MaximumSize = new Size(272, 0);
+            panel2.MinimumSize = new Size(48, 368);
             panel2.Name = "panel2";
-            panel2.Size = new Size(10, 453);
+            panel2.Size = new Size(48, 368);
             panel2.TabIndex = 1;
-            // 
-            // label1
-            // 
-            label1.BackColor = Color.FromArgb(46, 43, 194);
-            label1.Location = new Point(6, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(2, 1500);
-            label1.TabIndex = 2;
-            label1.Click += label1_Click;
-            // 
-            // panel9
-            // 
-            panel9.Location = new Point(277, 3);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(10, 453);
-            panel9.TabIndex = 8;
-            // 
-            // sidebarTimer
-            // 
-            sidebarTimer.Interval = 10;
-            sidebarTimer.Tick += sidebarTimer_Tick;
             // 
             // SidebarControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(28, 28, 28);
+            BackColor = Color.FromArgb(46, 43, 194);
+            Controls.Add(panel2);
             Controls.Add(sidebar);
-            MaximumSize = new Size(272, 0);
-            MinimumSize = new Size(48, 456);
+            MaximumSize = new Size(274, 1000);
+            MinimumSize = new Size(50, 456);
             Name = "SidebarControl";
-            Size = new Size(272, 456);
+            Size = new Size(50, 886);
             Resize += SidebarControl_Resize;
             sidebar.ResumeLayout(false);
             panel1.ResumeLayout(false);
@@ -330,18 +324,16 @@
             panel6.ResumeLayout(false);
             panel7.ResumeLayout(false);
             panel8.ResumeLayout(false);
-            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-
+        private System.Windows.Forms.Timer sidebarTimer;
         private FlowLayoutPanel sidebar;
         private Panel panel1;
-        private Panel panel2;
-        private Label label1;
-        private Button sidebarBtnFechar;
+        private PictureBox sidebarBtnAbrir;
         private Label label2;
+        private Button sidebarBtnFechar;
         private Panel panel3;
         private Button perfilBtn;
         private Panel panel5;
@@ -351,12 +343,10 @@
         private Panel panel6;
         private Button claBtn;
         private Panel panel7;
-        private Button suporteBtn;
         private Label label3;
+        private Button suporteBtn;
         private Panel panel8;
         private Button configuracaoBtn;
-        private System.Windows.Forms.Timer sidebarTimer;
-        private PictureBox sidebarBtnAbrir;
-        private Panel panel9;
+        private Panel panel2;
     }
 }
