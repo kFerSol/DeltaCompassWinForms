@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeltaCompass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d0ef3123193ba9262e0c3616bad23286867f364")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43c99467f9c98053975dfc95f7a8e5a62d0dc47d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeltaCompass")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeltaCompass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

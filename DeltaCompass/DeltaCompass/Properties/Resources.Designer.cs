@@ -143,6 +143,26 @@ namespace DeltaCompass.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap file_plus_delta {
+            get {
+                object obj = ResourceManager.GetObject("file-plus-delta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap filter_deltaw {
+            get {
+                object obj = ResourceManager.GetObject("filter-deltaw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_delta {
             get {
                 object obj = ResourceManager.GetObject("logo-delta", resourceCulture);
@@ -286,6 +306,16 @@ namespace DeltaCompass.Properties {
         internal static System.Drawing.Bitmap token_1__2_ {
             get {
                 object obj = ResourceManager.GetObject("token_1 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trash {
+            get {
+                object obj = ResourceManager.GetObject("trash", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

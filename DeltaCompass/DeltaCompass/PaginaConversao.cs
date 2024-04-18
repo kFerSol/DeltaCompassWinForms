@@ -16,5 +16,10 @@ namespace DeltaCompass
         {
             InitializeComponent();
         }
+
+        private void PaginaConversao_Load(object sender, EventArgs e)
+        {
+            FormBorderStyle = FormBorderStyle.None;
+        }
     }
 }

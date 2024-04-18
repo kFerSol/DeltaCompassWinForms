@@ -36,8 +36,13 @@
             flowLayoutPanel1 = new FlowLayoutPanel();
             roundControl2 = new RoundControl();
             label8 = new Label();
+            textBox1 = new TextBox();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -122,12 +127,47 @@
             label8.TabIndex = 15;
             label8.Text = "Histórico de Pesquisa";
             // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.FromArgb(29, 29, 29);
+            textBox1.Font = new Font("Poppins", 10F);
+            textBox1.ForeColor = SystemColors.Control;
+            textBox1.Location = new Point(537, 24);
+            textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Jogo, usuário ou equipe...";
+            textBox1.Size = new Size(185, 27);
+            textBox1.TabIndex = 16;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.filter_deltaw;
+            pictureBox1.Location = new Point(494, 21);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(37, 33);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 17;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.FromArgb(39, 39, 39);
+            pictureBox2.Image = Properties.Resources.trash;
+            pictureBox2.Location = new Point(690, 93);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(29, 30);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 18;
+            pictureBox2.TabStop = false;
+            // 
             // PaginaBusca
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(28, 28, 28);
             ClientSize = new Size(753, 453);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
+            Controls.Add(textBox1);
             Controls.Add(label8);
             Controls.Add(roundControl2);
             Controls.Add(flowLayoutPanel1);
@@ -137,8 +177,11 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "PaginaBusca";
             Text = "PaginaBusca";
+            Load += PaginaBusca_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -152,5 +195,8 @@
         private FlowLayoutPanel flowLayoutPanel1;
         private RoundControl roundControl2;
         private Label label8;
+        private TextBox textBox1;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

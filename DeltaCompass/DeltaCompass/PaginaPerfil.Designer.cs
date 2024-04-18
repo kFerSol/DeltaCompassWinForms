@@ -455,6 +455,7 @@
             Name = "PaginaPerfil";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PaginaPerfil";
+            Load += PaginaPerfil_Load;
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel5.ResumeLayout(false);

@@ -356,6 +356,7 @@
             Name = "PaginaConversao";
             StartPosition = FormStartPosition.CenterParent;
             Text = "PaginaConversao";
+            Load += PaginaConversao_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
