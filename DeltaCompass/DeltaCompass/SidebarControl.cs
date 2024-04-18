@@ -17,7 +17,11 @@ namespace DeltaCompass
             InitializeComponent();
         }
 
+        PaginaConversao conversao;
+
         bool expandirSidebar = true;
+
+        public FormPrincipal ParentFormReference { get; internal set; }
 
         private void sidebarTimer_Tick(object sender, EventArgs e)
         {
@@ -33,7 +37,7 @@ namespace DeltaCompass
                 if (expandirSidebar)
                 {
                     sidebar.Width -= 10;
-                    this.Width = sidebar.Width+2;
+                    this.Width = sidebar.Width + 2;
                     panel2.Width = sidebar.Width;
                     if (sidebar.Width <= 48)
                     {
@@ -46,7 +50,7 @@ namespace DeltaCompass
                 else
                 {
                     sidebar.Width += 10;
-                    this.Width = sidebar.Width+2;
+                    this.Width = sidebar.Width + 2;
                     panel2.Width = sidebar.Width;
                     sidebarBtnAbrir.Visible = false;
                     label2.Visible = true;
@@ -82,7 +86,7 @@ namespace DeltaCompass
         private void SidebarControl_Resize(object sender, EventArgs e)
         {
             Form parentForm = this.FindForm();
-            if(parentForm != null && parentForm.Width >= 1000)
+            if (parentForm != null && parentForm.Width >= 1000)
             {
                 sidebarTimer.Start();
             }
@@ -98,11 +102,31 @@ namespace DeltaCompass
 
         private void perfilBtn_Click(object sender, EventArgs e)
         {
-            Form conversao = new Form();
+            /*Form conversao = new Form();
             conversao.ShowDialog();
             ConversaoAberta(EventArgs.Empty);
-            /*Form parentForm = this.FindForm();
+            Form parentForm = this.FindForm();
             parentForm.Close();*/
+        }
+
+        private void ConversaoBtn_Click(object sender, EventArgs e)
+        {
+            if(conversao == null)
+            {
+                conversao = new PaginaConversao();
+                conversao.FormClosed += Conversao_FormClosed;
+                conversao.MdiParent = this.ParentFormReference;
+                conversao.Show();
+            }
+            else
+            {
+                conversao.Activate();
+            }
+        }
+
+        private void Conversao_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            conversao = null;
         }
     }
 }

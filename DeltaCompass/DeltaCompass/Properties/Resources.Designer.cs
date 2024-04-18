@@ -63,6 +63,16 @@ namespace DeltaCompass.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap apex_logo {
+            get {
+                object obj = ResourceManager.GetObject("apex-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_delta {
             get {
                 object obj = ResourceManager.GetObject("close-delta", resourceCulture);
@@ -167,6 +177,56 @@ namespace DeltaCompass.Properties {
             get {
                 object obj = ResourceManager.GetObject("minus-delta1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Byte[].
+        /// </summary>
+        internal static byte[] MODES___ {
+            get {
+                object obj = ResourceManager.GetObject("MODES___", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Poppins_Black {
+            get {
+                object obj = ResourceManager.GetObject("Poppins_Black", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Poppins_Medium {
+            get {
+                object obj = ResourceManager.GetObject("Poppins_Medium", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Poppins_Regular {
+            get {
+                object obj = ResourceManager.GetObject("Poppins_Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Poppins_SemiBold {
+            get {
+                object obj = ResourceManager.GetObject("Poppins_SemiBold", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

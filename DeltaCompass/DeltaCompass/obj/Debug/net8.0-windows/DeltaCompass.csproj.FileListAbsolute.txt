@@ -3,7 +3,6 @@ C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\bin\Debug\net8.0-windows\DeltaCompass.runtimeconfig.json
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\bin\Debug\net8.0-windows\DeltaCompass.dll
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\bin\Debug\net8.0-windows\DeltaCompass.pdb
-C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.FormPaginaPerfil.resources
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.csproj.GenerateResource.cache
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.AssemblyInfoInputs.cache
@@ -21,3 +20,12 @@ C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaConversao.resources
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.RoundControl.resources
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.SlotCSControl.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.MdiTeste.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaPerfil.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.FormPrincipal.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaBusca.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaConfiguracao.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaCriacaoCla.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaOutroPerfil.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaPerfilCla.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaSuporte.resources

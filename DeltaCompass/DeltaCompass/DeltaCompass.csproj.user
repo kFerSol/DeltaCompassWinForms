@@ -4,7 +4,31 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="MdiTeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PaginaBusca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PaginaConfiguracao.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PaginaConversao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PaginaCriacaoCla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PaginaOutroPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PaginaPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PaginaPerfilCla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PaginaSuporte.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="RoundControl.cs">

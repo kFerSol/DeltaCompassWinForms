@@ -84,7 +84,7 @@
             sidebar.MaximumSize = new Size(272, 0);
             sidebar.MinimumSize = new Size(48, 456);
             sidebar.Name = "sidebar";
-            sidebar.Size = new Size(48, 531);
+            sidebar.Size = new Size(272, 531);
             sidebar.TabIndex = 0;
             // 
             // panel1
@@ -183,6 +183,7 @@
             ConversaoBtn.Text = "         Conversão Automatizada";
             ConversaoBtn.TextAlign = ContentAlignment.MiddleLeft;
             ConversaoBtn.UseVisualStyleBackColor = false;
+            ConversaoBtn.Click += ConversaoBtn_Click;
             // 
             // panel4
             // 
@@ -313,7 +314,7 @@
             MaximumSize = new Size(274, 1000);
             MinimumSize = new Size(50, 456);
             Name = "SidebarControl";
-            Size = new Size(50, 886);
+            Size = new Size(274, 886);
             Resize += SidebarControl_Resize;
             sidebar.ResumeLayout(false);
             panel1.ResumeLayout(false);

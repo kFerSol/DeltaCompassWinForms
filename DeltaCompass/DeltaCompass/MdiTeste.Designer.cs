@@ -1,0 +1,326 @@
+﻿namespace DeltaCompass
+{
+    partial class MdiTeste
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            sidebar = new FlowLayoutPanel();
+            panel2 = new Panel();
+            sidebarBtnAbrir = new PictureBox();
+            label2 = new Label();
+            sidebarBtnFechar = new Button();
+            panel3 = new Panel();
+            perfilBtn = new Button();
+            panel5 = new Panel();
+            ConversaoBtn = new Button();
+            panel4 = new Panel();
+            buscarUsuarioBtn = new Button();
+            panel6 = new Panel();
+            claBtn = new Button();
+            panel7 = new Panel();
+            label3 = new Label();
+            suporteBtn = new Button();
+            panel8 = new Panel();
+            configuracaoBtn = new Button();
+            sidebar.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)sidebarBtnAbrir).BeginInit();
+            panel3.SuspendLayout();
+            panel5.SuspendLayout();
+            panel4.SuspendLayout();
+            panel6.SuspendLayout();
+            panel7.SuspendLayout();
+            panel8.SuspendLayout();
+            SuspendLayout();
+            // 
+            // sidebar
+            // 
+            sidebar.BackColor = Color.FromArgb(28, 28, 28);
+            sidebar.BackgroundImageLayout = ImageLayout.Zoom;
+            sidebar.Controls.Add(panel2);
+            sidebar.Controls.Add(panel3);
+            sidebar.Controls.Add(panel5);
+            sidebar.Controls.Add(panel4);
+            sidebar.Controls.Add(panel6);
+            sidebar.Controls.Add(panel7);
+            sidebar.Controls.Add(panel8);
+            sidebar.Dock = DockStyle.Left;
+            sidebar.FlowDirection = FlowDirection.TopDown;
+            sidebar.ForeColor = SystemColors.ActiveCaption;
+            sidebar.Location = new Point(0, 0);
+            sidebar.Margin = new Padding(0);
+            sidebar.MaximumSize = new Size(272, 0);
+            sidebar.MinimumSize = new Size(48, 456);
+            sidebar.Name = "sidebar";
+            sidebar.Size = new Size(48, 456);
+            sidebar.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(sidebarBtnAbrir);
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(sidebarBtnFechar);
+            panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(239, 61);
+            panel2.TabIndex = 0;
+            // 
+            // sidebarBtnAbrir
+            // 
+            sidebarBtnAbrir.Image = Properties.Resources.delta_logo;
+            sidebarBtnAbrir.Location = new Point(8, 19);
+            sidebarBtnAbrir.Name = "sidebarBtnAbrir";
+            sidebarBtnAbrir.Size = new Size(42, 40);
+            sidebarBtnAbrir.TabIndex = 4;
+            sidebarBtnAbrir.TabStop = false;
+            // 
+            // label2
+            // 
+            label2.BackColor = Color.FromArgb(46, 43, 194);
+            label2.Location = new Point(43, 58);
+            label2.Name = "label2";
+            label2.Size = new Size(187, 2);
+            label2.TabIndex = 3;
+            // 
+            // sidebarBtnFechar
+            // 
+            sidebarBtnFechar.BackColor = Color.FromArgb(28, 28, 28);
+            sidebarBtnFechar.Font = new Font("ModeSeven", 12F);
+            sidebarBtnFechar.ForeColor = SystemColors.Control;
+            sidebarBtnFechar.Image = Properties.Resources.delta_logo;
+            sidebarBtnFechar.ImageAlign = ContentAlignment.MiddleLeft;
+            sidebarBtnFechar.Location = new Point(-18, -15);
+            sidebarBtnFechar.Name = "sidebarBtnFechar";
+            sidebarBtnFechar.Padding = new Padding(60, 0, 0, 0);
+            sidebarBtnFechar.Size = new Size(276, 102);
+            sidebarBtnFechar.TabIndex = 2;
+            sidebarBtnFechar.Text = "   Delta Compass";
+            sidebarBtnFechar.TextAlign = ContentAlignment.MiddleLeft;
+            sidebarBtnFechar.UseVisualStyleBackColor = false;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(perfilBtn);
+            panel3.Location = new Point(0, 61);
+            panel3.Margin = new Padding(0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(239, 55);
+            panel3.TabIndex = 3;
+            // 
+            // perfilBtn
+            // 
+            perfilBtn.BackColor = Color.FromArgb(28, 28, 28);
+            perfilBtn.Font = new Font("Poppins", 11F);
+            perfilBtn.ForeColor = SystemColors.Control;
+            perfilBtn.Image = Properties.Resources.user_delta;
+            perfilBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            perfilBtn.Location = new Point(-18, -4);
+            perfilBtn.Name = "perfilBtn";
+            perfilBtn.Padding = new Padding(20, 0, 0, 0);
+            perfilBtn.Size = new Size(287, 69);
+            perfilBtn.TabIndex = 2;
+            perfilBtn.Text = "         Perfil";
+            perfilBtn.TextAlign = ContentAlignment.MiddleLeft;
+            perfilBtn.UseVisualStyleBackColor = false;
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(ConversaoBtn);
+            panel5.Location = new Point(0, 116);
+            panel5.Margin = new Padding(0);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(239, 55);
+            panel5.TabIndex = 5;
+            // 
+            // ConversaoBtn
+            // 
+            ConversaoBtn.BackColor = Color.FromArgb(28, 28, 28);
+            ConversaoBtn.Font = new Font("Poppins", 11F);
+            ConversaoBtn.ForeColor = SystemColors.Control;
+            ConversaoBtn.Image = Properties.Resources.sync_delta;
+            ConversaoBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            ConversaoBtn.Location = new Point(-18, -4);
+            ConversaoBtn.Name = "ConversaoBtn";
+            ConversaoBtn.Padding = new Padding(20, 0, 0, 0);
+            ConversaoBtn.Size = new Size(287, 69);
+            ConversaoBtn.TabIndex = 2;
+            ConversaoBtn.Text = "         Conversão Automatizada";
+            ConversaoBtn.TextAlign = ContentAlignment.MiddleLeft;
+            ConversaoBtn.UseVisualStyleBackColor = false;
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(buscarUsuarioBtn);
+            panel4.Location = new Point(0, 171);
+            panel4.Margin = new Padding(0);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(239, 55);
+            panel4.TabIndex = 4;
+            // 
+            // buscarUsuarioBtn
+            // 
+            buscarUsuarioBtn.BackColor = Color.FromArgb(28, 28, 28);
+            buscarUsuarioBtn.Font = new Font("Poppins", 11F);
+            buscarUsuarioBtn.ForeColor = SystemColors.Control;
+            buscarUsuarioBtn.Image = Properties.Resources.users_delta;
+            buscarUsuarioBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            buscarUsuarioBtn.Location = new Point(-18, -4);
+            buscarUsuarioBtn.Name = "buscarUsuarioBtn";
+            buscarUsuarioBtn.Padding = new Padding(20, 0, 0, 0);
+            buscarUsuarioBtn.Size = new Size(287, 69);
+            buscarUsuarioBtn.TabIndex = 2;
+            buscarUsuarioBtn.Text = "         Buscar Usuários";
+            buscarUsuarioBtn.TextAlign = ContentAlignment.MiddleLeft;
+            buscarUsuarioBtn.UseVisualStyleBackColor = false;
+            // 
+            // panel6
+            // 
+            panel6.Controls.Add(claBtn);
+            panel6.Location = new Point(0, 226);
+            panel6.Margin = new Padding(0);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(239, 55);
+            panel6.TabIndex = 4;
+            // 
+            // claBtn
+            // 
+            claBtn.BackColor = Color.FromArgb(28, 28, 28);
+            claBtn.Font = new Font("Poppins", 11F);
+            claBtn.ForeColor = SystemColors.Control;
+            claBtn.Image = Properties.Resources.shield_delta;
+            claBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            claBtn.Location = new Point(-18, -4);
+            claBtn.Name = "claBtn";
+            claBtn.Padding = new Padding(20, 0, 0, 0);
+            claBtn.Size = new Size(287, 69);
+            claBtn.TabIndex = 2;
+            claBtn.Text = "         Clã";
+            claBtn.TextAlign = ContentAlignment.MiddleLeft;
+            claBtn.UseVisualStyleBackColor = false;
+            // 
+            // panel7
+            // 
+            panel7.BackColor = Color.FromArgb(28, 28, 28);
+            panel7.Controls.Add(label3);
+            panel7.Controls.Add(suporteBtn);
+            panel7.Location = new Point(0, 281);
+            panel7.Margin = new Padding(0);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(239, 91);
+            panel7.TabIndex = 6;
+            // 
+            // label3
+            // 
+            label3.Location = new Point(0, 32);
+            label3.Name = "label3";
+            label3.Size = new Size(252, 23);
+            label3.TabIndex = 1;
+            // 
+            // suporteBtn
+            // 
+            suporteBtn.BackColor = Color.FromArgb(28, 28, 28);
+            suporteBtn.Font = new Font("Poppins", 11F);
+            suporteBtn.ForeColor = SystemColors.Control;
+            suporteBtn.Image = Properties.Resources.message_delta;
+            suporteBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            suporteBtn.Location = new Point(-19, 39);
+            suporteBtn.Name = "suporteBtn";
+            suporteBtn.Padding = new Padding(20, 0, 0, 0);
+            suporteBtn.Size = new Size(276, 60);
+            suporteBtn.TabIndex = 0;
+            suporteBtn.Text = "          Fale Conosco";
+            suporteBtn.TextAlign = ContentAlignment.MiddleLeft;
+            suporteBtn.UseVisualStyleBackColor = false;
+            // 
+            // panel8
+            // 
+            panel8.Controls.Add(configuracaoBtn);
+            panel8.Location = new Point(0, 372);
+            panel8.Margin = new Padding(0);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(239, 40);
+            panel8.TabIndex = 7;
+            // 
+            // configuracaoBtn
+            // 
+            configuracaoBtn.BackColor = Color.FromArgb(28, 28, 28);
+            configuracaoBtn.Font = new Font("Poppins", 11F);
+            configuracaoBtn.ForeColor = SystemColors.Control;
+            configuracaoBtn.Image = Properties.Resources.slider_delta;
+            configuracaoBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            configuracaoBtn.Location = new Point(-21, -11);
+            configuracaoBtn.Name = "configuracaoBtn";
+            configuracaoBtn.Padding = new Padding(20, 0, 0, 0);
+            configuracaoBtn.Size = new Size(279, 60);
+            configuracaoBtn.TabIndex = 0;
+            configuracaoBtn.Text = "          Configurações";
+            configuracaoBtn.TextAlign = ContentAlignment.MiddleLeft;
+            configuracaoBtn.UseVisualStyleBackColor = false;
+            // 
+            // MdiTeste
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(784, 447);
+            Controls.Add(sidebar);
+            Name = "MdiTeste";
+            Text = "MdiTeste";
+            sidebar.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)sidebarBtnAbrir).EndInit();
+            panel3.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            panel6.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            panel8.ResumeLayout(false);
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private FlowLayoutPanel sidebar;
+        private Panel panel2;
+        private PictureBox sidebarBtnAbrir;
+        private Label label2;
+        private Button sidebarBtnFechar;
+        private Panel panel3;
+        private Button perfilBtn;
+        private Panel panel5;
+        private Button ConversaoBtn;
+        private Panel panel4;
+        private Button buscarUsuarioBtn;
+        private Panel panel6;
+        private Button claBtn;
+        private Panel panel7;
+        private Label label3;
+        private Button suporteBtn;
+        private Panel panel8;
+        private Button configuracaoBtn;
+    }
+}
