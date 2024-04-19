@@ -53,13 +53,13 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             panel9 = new Panel();
             label16 = new Label();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            panel1 = new Panel();
             label17 = new Label();
             panel2 = new Panel();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             panel10 = new Panel();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            panel11 = new Panel();
             panel3.SuspendLayout();
             panel5.SuspendLayout();
             panel4.SuspendLayout();
@@ -67,7 +67,6 @@
             panel7.SuspendLayout();
             panel8.SuspendLayout();
             panel9.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -355,31 +354,6 @@
             label16.TabIndex = 2;
             label16.Text = "Counter Strike 2";
             // 
-            // tableLayoutPanel2
-            // 
-            tableLayoutPanel2.Anchor = AnchorStyles.None;
-            tableLayoutPanel2.BackColor = Color.FromArgb(28, 28, 28);
-            tableLayoutPanel2.ColumnCount = 3;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel2.Controls.Add(panel1, 0, 0);
-            tableLayoutPanel2.Location = new Point(255, 180);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 2;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 51.20968F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 48.79032F));
-            tableLayoutPanel2.Size = new Size(448, 248);
-            tableLayoutPanel2.TabIndex = 6;
-            // 
-            // panel1
-            // 
-            panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(149, 127);
-            panel1.TabIndex = 1;
-            // 
             // label17
             // 
             label17.Anchor = AnchorStyles.None;
@@ -434,16 +408,32 @@
             panel10.Size = new Size(753, 133);
             panel10.TabIndex = 10;
             // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.AutoScroll = true;
+            flowLayoutPanel1.Location = new Point(255, 171);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(472, 252);
+            flowLayoutPanel1.TabIndex = 11;
+            // 
+            // panel11
+            // 
+            panel11.Location = new Point(0, 0);
+            panel11.Margin = new Padding(0);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(47, 58);
+            panel11.TabIndex = 1;
+            // 
             // PaginaPerfil
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(28, 28, 28);
             ClientSize = new Size(753, 453);
+            Controls.Add(flowLayoutPanel1);
             Controls.Add(panel2);
             Controls.Add(pictureBox1);
             Controls.Add(label17);
-            Controls.Add(tableLayoutPanel2);
             Controls.Add(panel7);
             Controls.Add(panel6);
             Controls.Add(panel4);
@@ -470,7 +460,6 @@
             panel8.PerformLayout();
             panel9.ResumeLayout(false);
             panel9.PerformLayout();
-            tableLayoutPanel2.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -505,12 +494,12 @@
         private TableLayoutPanel tableLayoutPanel1;
         private Panel panel9;
         private Label label16;
-        private TableLayoutPanel tableLayoutPanel2;
-        private Panel panel1;
         private Label label17;
         private Panel panel2;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private Panel panel10;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private Panel panel11;
     }
 }

@@ -16,5 +16,15 @@ namespace DeltaCompass
         {
             InitializeComponent();
         }
+
+        private void roundControl1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PaginaConfiguracao_Load(object sender, EventArgs e)
+        {
+            FormBorderStyle = FormBorderStyle.None;
+        }
     }
 }
