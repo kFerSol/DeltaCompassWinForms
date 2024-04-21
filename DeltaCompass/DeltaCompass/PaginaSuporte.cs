@@ -21,5 +21,36 @@ namespace DeltaCompass
         {
             FormBorderStyle = FormBorderStyle.None;
         }
+
+        private void button3_MouseEnter(object sender, EventArgs e)
+        {
+            button3.BackColor = Color.FromArgb(100, 97, 220);
+            button3.ForeColor = Color.DarkGray;
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            button3.BackColor = Color.FromArgb(46, 43, 194);
+            button3.ForeColor = SystemColors.Control;
+            this.Cursor = Cursors.Default;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.FromArgb(39, 39, 39);
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.FromArgb(28, 28, 28);
+            this.Cursor = Cursors.Default;
+        }
     }
 }

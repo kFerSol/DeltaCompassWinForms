@@ -115,7 +115,7 @@
             // 
             // btnSidebar
             // 
-            btnSidebar.Image = Properties.Resources.delta_logo;
+            btnSidebar.Image = Properties.Resources.logo_delta1;
             btnSidebar.Location = new Point(2, 21);
             btnSidebar.Name = "btnSidebar";
             btnSidebar.Size = new Size(38, 36);

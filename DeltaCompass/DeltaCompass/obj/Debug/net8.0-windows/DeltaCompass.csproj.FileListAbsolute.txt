@@ -29,3 +29,7 @@ C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaOutroPerfil.resources
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaPerfilCla.resources
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.PaginaSuporte.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.TextBoxControl.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.ComboBoxControl.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.ComboBoxClass.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.SensAplicadaAlert.resources

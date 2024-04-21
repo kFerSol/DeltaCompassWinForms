@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="ComboBoxClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ComboBoxControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -34,10 +40,16 @@
     <Compile Update="RoundControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="SensAplicadaAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SidebarControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="SlotCSControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="TextBoxControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="TitleBarControl.cs">

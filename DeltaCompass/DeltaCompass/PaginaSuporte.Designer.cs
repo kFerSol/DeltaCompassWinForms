@@ -36,13 +36,13 @@
             button2 = new Button();
             label17 = new Label();
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
             panel1 = new Panel();
             button1 = new Button();
             panel5 = new Panel();
             button3 = new Button();
+            textBoxControl1 = new TextBoxControl();
+            textBoxControl2 = new TextBoxControl();
+            textBoxControl3 = new TextBoxControl();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -140,46 +140,12 @@
             label1.TabIndex = 18;
             label1.Text = "Detalhes:";
             // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.FromArgb(29, 29, 29);
-            textBox1.Font = new Font("Poppins", 10F);
-            textBox1.ForeColor = SystemColors.Control;
-            textBox1.Location = new Point(31, 160);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "  Assunto do ticket";
-            textBox1.Size = new Size(344, 27);
-            textBox1.TabIndex = 17;
-            // 
-            // textBox2
-            // 
-            textBox2.BackColor = Color.FromArgb(29, 29, 29);
-            textBox2.Font = new Font("Poppins", 10F);
-            textBox2.ForeColor = SystemColors.Control;
-            textBox2.Location = new Point(31, 231);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.PlaceholderText = "  Texto";
-            textBox2.Size = new Size(344, 155);
-            textBox2.TabIndex = 19;
-            // 
-            // textBox3
-            // 
-            textBox3.BackColor = Color.FromArgb(29, 29, 29);
-            textBox3.Font = new Font("Poppins", 10F);
-            textBox3.ForeColor = SystemColors.Control;
-            textBox3.Location = new Point(385, 231);
-            textBox3.Name = "textBox3";
-            textBox3.PlaceholderText = " C:\\Users\\Usuario\\Downloads\\exemplo\\foto.jpg\n";
-            textBox3.Size = new Size(340, 27);
-            textBox3.TabIndex = 20;
-            // 
             // panel1
             // 
             panel1.Controls.Add(button1);
-            panel1.Location = new Point(465, 269);
+            panel1.Location = new Point(491, 274);
             panel1.Name = "panel1";
-            panel1.Size = new Size(184, 28);
+            panel1.Size = new Size(154, 28);
             panel1.TabIndex = 22;
             // 
             // button1
@@ -195,6 +161,8 @@
             button1.TabIndex = 0;
             button1.Text = "Anexar arquivo";
             button1.UseVisualStyleBackColor = false;
+            button1.MouseEnter += button1_MouseEnter;
+            button1.MouseLeave += button1_MouseLeave;
             // 
             // panel5
             // 
@@ -213,8 +181,71 @@
             button3.Name = "button3";
             button3.Size = new Size(166, 55);
             button3.TabIndex = 16;
-            button3.Text = "Participar";
+            button3.Text = "Enviar";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            button3.MouseEnter += button3_MouseEnter;
+            button3.MouseLeave += button3_MouseLeave;
+            // 
+            // textBoxControl1
+            // 
+            textBoxControl1.BackColor = Color.FromArgb(28, 28, 28);
+            textBoxControl1.BorderColor = Color.FromArgb(46, 43, 194);
+            textBoxControl1.BorderFocusColor = Color.FromArgb(100, 97, 220);
+            textBoxControl1.BorderRadius = 0;
+            textBoxControl1.BorderSize = 2;
+            textBoxControl1.Font = new Font("Segoe UI", 12F);
+            textBoxControl1.ForeColor = SystemColors.Control;
+            textBoxControl1.Location = new Point(31, 160);
+            textBoxControl1.Multiline = false;
+            textBoxControl1.Name = "textBoxControl1";
+            textBoxControl1.Padding = new Padding(7);
+            textBoxControl1.PlaceholderColor = Color.DarkGray;
+            textBoxControl1.PlaceholderText = "Título.";
+            textBoxControl1.Size = new Size(344, 36);
+            textBoxControl1.TabIndex = 24;
+            textBoxControl1.Texts = "";
+            textBoxControl1.UnderlinedStyle = false;
+            // 
+            // textBoxControl2
+            // 
+            textBoxControl2.BackColor = Color.FromArgb(28, 28, 28);
+            textBoxControl2.BorderColor = Color.FromArgb(46, 43, 194);
+            textBoxControl2.BorderFocusColor = Color.FromArgb(100, 97, 220);
+            textBoxControl2.BorderRadius = 0;
+            textBoxControl2.BorderSize = 2;
+            textBoxControl2.Font = new Font("Segoe UI", 12F);
+            textBoxControl2.ForeColor = SystemColors.Control;
+            textBoxControl2.Location = new Point(30, 231);
+            textBoxControl2.Multiline = true;
+            textBoxControl2.Name = "textBoxControl2";
+            textBoxControl2.Padding = new Padding(7);
+            textBoxControl2.PlaceholderColor = Color.DarkGray;
+            textBoxControl2.PlaceholderText = "Texto.";
+            textBoxControl2.Size = new Size(344, 152);
+            textBoxControl2.TabIndex = 25;
+            textBoxControl2.Texts = "";
+            textBoxControl2.UnderlinedStyle = false;
+            // 
+            // textBoxControl3
+            // 
+            textBoxControl3.BackColor = Color.FromArgb(28, 28, 28);
+            textBoxControl3.BorderColor = Color.FromArgb(46, 43, 194);
+            textBoxControl3.BorderFocusColor = Color.FromArgb(100, 97, 220);
+            textBoxControl3.BorderRadius = 0;
+            textBoxControl3.BorderSize = 2;
+            textBoxControl3.Font = new Font("Segoe UI", 12F);
+            textBoxControl3.ForeColor = SystemColors.Control;
+            textBoxControl3.Location = new Point(392, 232);
+            textBoxControl3.Multiline = false;
+            textBoxControl3.Name = "textBoxControl3";
+            textBoxControl3.Padding = new Padding(7);
+            textBoxControl3.PlaceholderColor = Color.DarkGray;
+            textBoxControl3.PlaceholderText = "C:\\Users\\Usuario\\Downloads\\exemplo\\foto.jpg";
+            textBoxControl3.Size = new Size(344, 36);
+            textBoxControl3.TabIndex = 26;
+            textBoxControl3.Texts = "";
+            textBoxControl3.UnderlinedStyle = false;
             // 
             // PaginaSuporte
             // 
@@ -222,11 +253,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(28, 28, 28);
             ClientSize = new Size(753, 453);
+            Controls.Add(textBoxControl3);
+            Controls.Add(textBoxControl2);
+            Controls.Add(textBoxControl1);
             Controls.Add(panel5);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
             Controls.Add(label1);
-            Controls.Add(textBox1);
             Controls.Add(label17);
             Controls.Add(panel2);
             Controls.Add(panel3);
@@ -255,13 +286,13 @@
         private Button button2;
         private Label label17;
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
         private Panel panel1;
         private Button button1;
         private Label label3;
         private Panel panel5;
         private Button button3;
+        private TextBoxControl textBoxControl1;
+        private TextBoxControl textBoxControl2;
+        private TextBoxControl textBoxControl3;
     }
 }

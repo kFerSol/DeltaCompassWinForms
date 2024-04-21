@@ -123,6 +123,16 @@ namespace DeltaCompass.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delta_logo1 {
+            get {
+                object obj = ResourceManager.GetObject("delta-logo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eye {
             get {
                 object obj = ResourceManager.GetObject("eye", resourceCulture);
@@ -173,6 +183,16 @@ namespace DeltaCompass.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_delta1 {
+            get {
+                object obj = ResourceManager.GetObject("logo-delta1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap message_delta {
             get {
                 object obj = ResourceManager.GetObject("message-delta", resourceCulture);
@@ -207,6 +227,16 @@ namespace DeltaCompass.Properties {
             get {
                 object obj = ResourceManager.GetObject("MODES___", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MWIII_logo {
+            get {
+                object obj = ResourceManager.GetObject("MWIII_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -247,6 +277,26 @@ namespace DeltaCompass.Properties {
             get {
                 object obj = ResourceManager.GetObject("Poppins_SemiBold", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap portal_logo {
+            get {
+                object obj = ResourceManager.GetObject("portal_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rainbow_logo {
+            get {
+                object obj = ResourceManager.GetObject("rainbow_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

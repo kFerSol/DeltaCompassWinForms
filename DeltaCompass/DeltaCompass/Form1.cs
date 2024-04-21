@@ -13,7 +13,6 @@ namespace DeltaCompass
         PaginaConversao conversao;
         PaginaBusca busca;
 
-
         public FormPrincipal()
         {
             InitializeComponent();

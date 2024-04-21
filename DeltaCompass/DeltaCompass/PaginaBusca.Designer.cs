@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button1 = new Button();
+            label3 = new Label();
+            btnBuscarCla = new Button();
             panel2 = new Panel();
-            button2 = new Button();
+            label1 = new Label();
+            btnBuscarUsuario = new Button();
             roundControl1 = new RoundControl();
             flowLayoutPanel1 = new FlowLayoutPanel();
             roundControl2 = new RoundControl();
@@ -47,43 +49,72 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(btnBuscarCla);
             panel1.Location = new Point(21, 12);
             panel1.Name = "panel1";
             panel1.Size = new Size(61, 42);
             panel1.TabIndex = 10;
             // 
-            // button1
+            // label3
             // 
-            button1.BackColor = Color.FromArgb(28, 28, 28);
-            button1.Font = new Font("Poppins", 12F);
-            button1.ForeColor = SystemColors.Control;
-            button1.Location = new Point(-37, -6);
-            button1.Name = "button1";
-            button1.Size = new Size(132, 65);
-            button1.TabIndex = 11;
-            button1.Text = "Clã";
-            button1.UseVisualStyleBackColor = false;
+            label3.BackColor = Color.FromArgb(46, 43, 194);
+            label3.Font = new Font("Poppins", 12F);
+            label3.ForeColor = SystemColors.Control;
+            label3.Location = new Point(4, 35);
+            label3.Name = "label3";
+            label3.Size = new Size(50, 2);
+            label3.TabIndex = 24;
+            label3.Visible = false;
+            // 
+            // btnBuscarCla
+            // 
+            btnBuscarCla.BackColor = Color.FromArgb(28, 28, 28);
+            btnBuscarCla.Font = new Font("Poppins", 12F);
+            btnBuscarCla.ForeColor = SystemColors.Control;
+            btnBuscarCla.Location = new Point(-37, -6);
+            btnBuscarCla.Name = "btnBuscarCla";
+            btnBuscarCla.Size = new Size(132, 65);
+            btnBuscarCla.TabIndex = 11;
+            btnBuscarCla.Text = "Clã";
+            btnBuscarCla.UseVisualStyleBackColor = false;
+            btnBuscarCla.Click += btnBuscarCla_Click;
+            btnBuscarCla.MouseEnter += btnBuscarCla_MouseEnter;
+            btnBuscarCla.MouseLeave += btnBuscarCla_MouseLeave;
             // 
             // panel2
             // 
-            panel2.Controls.Add(button2);
+            panel2.Controls.Add(label1);
+            panel2.Controls.Add(btnBuscarUsuario);
             panel2.Location = new Point(101, 12);
             panel2.Name = "panel2";
             panel2.Size = new Size(76, 42);
             panel2.TabIndex = 11;
             // 
-            // button2
+            // label1
             // 
-            button2.BackColor = Color.FromArgb(28, 28, 28);
-            button2.Font = new Font("Poppins", 12F);
-            button2.ForeColor = SystemColors.Control;
-            button2.Location = new Point(-31, -6);
-            button2.Name = "button2";
-            button2.Size = new Size(132, 65);
-            button2.TabIndex = 11;
-            button2.Text = "Usuário";
-            button2.UseVisualStyleBackColor = false;
+            label1.BackColor = Color.FromArgb(46, 43, 194);
+            label1.Font = new Font("Poppins", 12F);
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(8, 35);
+            label1.Name = "label1";
+            label1.Size = new Size(50, 2);
+            label1.TabIndex = 25;
+            // 
+            // btnBuscarUsuario
+            // 
+            btnBuscarUsuario.BackColor = Color.FromArgb(28, 28, 28);
+            btnBuscarUsuario.Font = new Font("Poppins", 12F);
+            btnBuscarUsuario.ForeColor = SystemColors.Control;
+            btnBuscarUsuario.Location = new Point(-31, -6);
+            btnBuscarUsuario.Name = "btnBuscarUsuario";
+            btnBuscarUsuario.Size = new Size(132, 65);
+            btnBuscarUsuario.TabIndex = 11;
+            btnBuscarUsuario.Text = "Usuário";
+            btnBuscarUsuario.UseVisualStyleBackColor = false;
+            btnBuscarUsuario.Click += btnBuscarUsuario_Click;
+            btnBuscarUsuario.MouseEnter += btnBuscarUsuario_MouseEnter;
+            btnBuscarUsuario.MouseLeave += btnBuscarUsuario_MouseLeave;
             // 
             // roundControl1
             // 
@@ -130,12 +161,13 @@
             // textBox1
             // 
             textBox1.BackColor = Color.FromArgb(29, 29, 29);
+            textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Poppins", 10F);
             textBox1.ForeColor = SystemColors.Control;
             textBox1.Location = new Point(537, 24);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Jogo, usuário ou equipe...";
-            textBox1.Size = new Size(185, 27);
+            textBox1.Size = new Size(185, 20);
             textBox1.TabIndex = 16;
             // 
             // pictureBox1
@@ -188,9 +220,9 @@
 
         #endregion
         private Panel panel1;
-        private Button button1;
+        private Button btnBuscarCla;
         private Panel panel2;
-        private Button button2;
+        private Button btnBuscarUsuario;
         private RoundControl roundControl1;
         private FlowLayoutPanel flowLayoutPanel1;
         private RoundControl roundControl2;
@@ -198,5 +230,7 @@
         private TextBox textBox1;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private Label label3;
+        private Label label1;
     }
 }
