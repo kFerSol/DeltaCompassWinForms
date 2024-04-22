@@ -75,11 +75,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Poppins", 12F);
+            label2.Font = new Font("Verdana", 12F, FontStyle.Italic);
             label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(7, 11);
+            label2.Location = new Point(7, 16);
             label2.Name = "label2";
-            label2.Size = new Size(171, 28);
+            label2.Size = new Size(164, 18);
             label2.TabIndex = 0;
             label2.Text = "Apelido do Jogador";
             // 
@@ -105,9 +105,9 @@
             // button2
             // 
             button2.BackColor = Color.FromArgb(28, 28, 28);
-            button2.Font = new Font("Poppins", 12F);
+            button2.Font = new Font("Verdana", 12F, FontStyle.Bold);
             button2.ForeColor = SystemColors.Control;
-            button2.Location = new Point(-31, -6);
+            button2.Location = new Point(-30, -8);
             button2.Name = "button2";
             button2.Size = new Size(132, 65);
             button2.TabIndex = 11;
@@ -119,11 +119,11 @@
             label17.Anchor = AnchorStyles.None;
             label17.AutoSize = true;
             label17.BackColor = Color.FromArgb(28, 28, 28);
-            label17.Font = new Font("ModeSeven", 14F);
+            label17.Font = new Font("Nirmala UI Semilight", 13F);
             label17.ForeColor = SystemColors.Control;
-            label17.Location = new Point(31, 138);
+            label17.Location = new Point(31, 134);
             label17.Name = "label17";
-            label17.Size = new Size(97, 19);
+            label17.Size = new Size(77, 25);
             label17.TabIndex = 13;
             label17.Text = "Assunto:";
             // 
@@ -132,11 +132,11 @@
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(28, 28, 28);
-            label1.Font = new Font("ModeSeven", 14F);
+            label1.Font = new Font("Nirmala UI Semilight", 13F);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(31, 209);
+            label1.Location = new Point(31, 205);
             label1.Name = "label1";
-            label1.Size = new Size(108, 19);
+            label1.Size = new Size(82, 25);
             label1.TabIndex = 18;
             label1.Text = "Detalhes:";
             // 
@@ -151,7 +151,7 @@
             // button1
             // 
             button1.BackColor = Color.FromArgb(28, 28, 28);
-            button1.Font = new Font("Poppins", 9F);
+            button1.Font = new Font("Verdana", 9F);
             button1.ForeColor = SystemColors.Control;
             button1.Image = Properties.Resources.file_plus_delta;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
@@ -167,7 +167,7 @@
             // panel5
             // 
             panel5.Controls.Add(button3);
-            panel5.Location = new Point(319, 402);
+            panel5.Location = new Point(294, 402);
             panel5.Name = "panel5";
             panel5.Size = new Size(139, 27);
             panel5.TabIndex = 23;
@@ -175,9 +175,9 @@
             // button3
             // 
             button3.BackColor = Color.FromArgb(46, 43, 194);
-            button3.Font = new Font("ModeSeven", 10F);
+            button3.Font = new Font("Nirmala UI Semilight", 12F, FontStyle.Bold);
             button3.ForeColor = SystemColors.Control;
-            button3.Location = new Point(-12, -13);
+            button3.Location = new Point(-12, -15);
             button3.Name = "button3";
             button3.Size = new Size(166, 55);
             button3.TabIndex = 16;

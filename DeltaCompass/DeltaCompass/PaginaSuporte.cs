@@ -24,7 +24,7 @@ namespace DeltaCompass
 
         private void button3_MouseEnter(object sender, EventArgs e)
         {
-            button3.BackColor = Color.FromArgb(100, 97, 220);
+            button3.BackColor = Color.FromArgb(28, 26, 115);
             button3.ForeColor = Color.DarkGray;
             this.Cursor = Cursors.Hand;
         }
@@ -36,9 +36,17 @@ namespace DeltaCompass
             this.Cursor = Cursors.Default;
         }
 
+        public void Alert(string msg)
+        {
+            SensAplicadaAlert frm = new SensAplicadaAlert();
+            frm.showAlert(msg);
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
-
+            this.Alert("Ticket Enviado.");
+            textBoxControl1.Texts = "";
+            textBoxControl2.Texts = "";
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)

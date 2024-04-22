@@ -62,11 +62,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("ModeSeven", 11F);
+            label1.Font = new Font("Nirmala UI Semilight", 12F, FontStyle.Bold);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(7, 24);
+            label1.Location = new Point(7, 20);
             label1.Name = "label1";
-            label1.Size = new Size(175, 15);
+            label1.Size = new Size(168, 21);
             label1.TabIndex = 0;
             label1.Text = "Conversão Aplicada.";
             // 

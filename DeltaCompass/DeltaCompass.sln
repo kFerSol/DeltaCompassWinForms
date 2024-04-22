@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaCompass", "DeltaCompass\DeltaCompass.csproj", "{BC65A745-FD4B-484F-BABE-C21D64E271DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeltaCompass", "DeltaCompass\DeltaCompass.csproj", "{BC65A745-FD4B-484F-BABE-C21D64E271DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEF5E11F-0537-41AA-8795-12F17F952919}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupDeltaCompass", "SetupDeltaCompass\SetupDeltaCompass.vdproj", "{0DD9552A-2B5D-4874-ACB3-A1B8ACF9F738}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,8 @@ Global
 		{BC65A745-FD4B-484F-BABE-C21D64E271DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC65A745-FD4B-484F-BABE-C21D64E271DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC65A745-FD4B-484F-BABE-C21D64E271DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD9552A-2B5D-4874-ACB3-A1B8ACF9F738}.Debug|Any CPU.ActiveCfg = Debug
+		{0DD9552A-2B5D-4874-ACB3-A1B8ACF9F738}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

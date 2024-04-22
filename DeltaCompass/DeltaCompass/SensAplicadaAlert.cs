@@ -48,6 +48,7 @@ namespace DeltaCompass
             }
             this.x = Screen.PrimaryScreen.WorkingArea.Width - 5;
 
+            this.label1.Text = msg;
             this.Show();
             this.action = enmAction.start;
             this.timer1.Interval = 1;

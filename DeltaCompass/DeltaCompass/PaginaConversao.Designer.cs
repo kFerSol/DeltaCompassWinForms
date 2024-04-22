@@ -73,11 +73,11 @@
             label17.Anchor = AnchorStyles.None;
             label17.AutoSize = true;
             label17.BackColor = Color.FromArgb(28, 28, 28);
-            label17.Font = new Font("ModeSeven", 14F);
+            label17.Font = new Font("Nirmala UI Semilight", 16F, FontStyle.Bold);
             label17.ForeColor = SystemColors.Control;
-            label17.Location = new Point(26, 24);
+            label17.Location = new Point(15, 16);
             label17.Name = "label17";
-            label17.Size = new Size(295, 19);
+            label17.Size = new Size(295, 30);
             label17.TabIndex = 8;
             label17.Text = "Conversor de Sensibilidade";
             // 
@@ -106,6 +106,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             pictureBox1.MouseEnter += pictureBox1_MouseEnter;
             pictureBox1.MouseLeave += pictureBox1_MouseLeave;
             // 
@@ -125,65 +126,65 @@
             // txtSensValor1
             // 
             txtSensValor1.AutoSize = true;
-            txtSensValor1.Font = new Font("Poppins", 10F);
+            txtSensValor1.Font = new Font("Verdana", 10F);
             txtSensValor1.ForeColor = Color.Lime;
-            txtSensValor1.Location = new Point(132, 53);
+            txtSensValor1.Location = new Point(134, 53);
             txtSensValor1.Name = "txtSensValor1";
-            txtSensValor1.Size = new Size(0, 25);
+            txtSensValor1.Size = new Size(0, 17);
             txtSensValor1.TabIndex = 8;
             // 
             // txtPolegadas1
             // 
             txtPolegadas1.AutoSize = true;
-            txtPolegadas1.Font = new Font("Poppins", 10F);
+            txtPolegadas1.Font = new Font("Verdana", 10F);
             txtPolegadas1.ForeColor = SystemColors.Control;
             txtPolegadas1.Location = new Point(36, 163);
             txtPolegadas1.Name = "txtPolegadas1";
-            txtPolegadas1.Size = new Size(169, 25);
+            txtPolegadas1.Size = new Size(170, 17);
             txtPolegadas1.TabIndex = 6;
             txtPolegadas1.Text = "Polegadas do Monitor: ";
             // 
             // txtProporcao1
             // 
             txtProporcao1.AutoSize = true;
-            txtProporcao1.Font = new Font("Poppins", 10F);
+            txtProporcao1.Font = new Font("Verdana", 10F);
             txtProporcao1.ForeColor = SystemColors.Control;
             txtProporcao1.Location = new Point(36, 126);
             txtProporcao1.Name = "txtProporcao1";
-            txtProporcao1.Size = new Size(87, 25);
+            txtProporcao1.Size = new Size(85, 17);
             txtProporcao1.TabIndex = 5;
             txtProporcao1.Text = "Proporção:";
             // 
             // txtResolucao1
             // 
             txtResolucao1.AutoSize = true;
-            txtResolucao1.Font = new Font("Poppins", 10F);
+            txtResolucao1.Font = new Font("Verdana", 10F);
             txtResolucao1.ForeColor = SystemColors.Control;
             txtResolucao1.Location = new Point(36, 91);
             txtResolucao1.Name = "txtResolucao1";
-            txtResolucao1.Size = new Size(88, 25);
+            txtResolucao1.Size = new Size(85, 17);
             txtResolucao1.TabIndex = 4;
             txtResolucao1.Text = "Resolução:";
             // 
             // txtSens1
             // 
             txtSens1.AutoSize = true;
-            txtSens1.Font = new Font("Poppins", 10F);
+            txtSens1.Font = new Font("Verdana", 10F);
             txtSens1.ForeColor = SystemColors.Control;
             txtSens1.Location = new Point(36, 53);
             txtSens1.Name = "txtSens1";
-            txtSens1.Size = new Size(105, 25);
+            txtSens1.Size = new Size(104, 17);
             txtSens1.TabIndex = 3;
             txtSens1.Text = "Sensibilidade:";
             // 
             // txtDpi1
             // 
             txtDpi1.AutoSize = true;
-            txtDpi1.Font = new Font("Poppins", 10F);
+            txtDpi1.Font = new Font("Verdana", 10F);
             txtDpi1.ForeColor = SystemColors.Control;
             txtDpi1.Location = new Point(36, 14);
             txtDpi1.Name = "txtDpi1";
-            txtDpi1.Size = new Size(108, 25);
+            txtDpi1.Size = new Size(111, 17);
             txtDpi1.TabIndex = 2;
             txtDpi1.Text = "DPI do Mouse:";
             // 
@@ -231,11 +232,11 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Poppins", 10F);
+            label7.Font = new Font("Verdana", 11F, FontStyle.Italic);
             label7.ForeColor = SystemColors.Control;
             label7.Location = new Point(36, -4);
             label7.Name = "label7";
-            label7.Size = new Size(131, 25);
+            label7.Size = new Size(132, 18);
             label7.TabIndex = 14;
             label7.Text = "Selecione o Jogo";
             // 
@@ -283,11 +284,11 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Font = new Font("Poppins", 10F);
+            label8.Font = new Font("Verdana", 11F, FontStyle.Italic);
             label8.ForeColor = SystemColors.Control;
             label8.Location = new Point(36, -4);
             label8.Name = "label8";
-            label8.Size = new Size(131, 25);
+            label8.Size = new Size(132, 18);
             label8.TabIndex = 14;
             label8.Text = "Selecione o Jogo";
             // 
@@ -307,74 +308,74 @@
             // txtSensValor2
             // 
             txtSensValor2.AutoSize = true;
-            txtSensValor2.Font = new Font("Poppins", 10F);
+            txtSensValor2.Font = new Font("Verdana", 10F);
             txtSensValor2.ForeColor = Color.Red;
-            txtSensValor2.Location = new Point(132, 53);
+            txtSensValor2.Location = new Point(134, 53);
             txtSensValor2.Name = "txtSensValor2";
-            txtSensValor2.Size = new Size(0, 25);
+            txtSensValor2.Size = new Size(0, 17);
             txtSensValor2.TabIndex = 7;
             // 
             // txtPolegadas2
             // 
             txtPolegadas2.AutoSize = true;
-            txtPolegadas2.Font = new Font("Poppins", 10F);
+            txtPolegadas2.Font = new Font("Verdana", 10F);
             txtPolegadas2.ForeColor = SystemColors.Control;
             txtPolegadas2.Location = new Point(36, 163);
             txtPolegadas2.Name = "txtPolegadas2";
-            txtPolegadas2.Size = new Size(169, 25);
+            txtPolegadas2.Size = new Size(170, 17);
             txtPolegadas2.TabIndex = 6;
             txtPolegadas2.Text = "Polegadas do Monitor: ";
             // 
             // txtProporcao2
             // 
             txtProporcao2.AutoSize = true;
-            txtProporcao2.Font = new Font("Poppins", 10F);
+            txtProporcao2.Font = new Font("Verdana", 10F);
             txtProporcao2.ForeColor = SystemColors.Control;
             txtProporcao2.Location = new Point(36, 126);
             txtProporcao2.Name = "txtProporcao2";
-            txtProporcao2.Size = new Size(87, 25);
+            txtProporcao2.Size = new Size(85, 17);
             txtProporcao2.TabIndex = 5;
             txtProporcao2.Text = "Proporção:";
             // 
             // txtResolucao2
             // 
             txtResolucao2.AutoSize = true;
-            txtResolucao2.Font = new Font("Poppins", 10F);
+            txtResolucao2.Font = new Font("Verdana", 10F);
             txtResolucao2.ForeColor = SystemColors.Control;
             txtResolucao2.Location = new Point(36, 91);
             txtResolucao2.Name = "txtResolucao2";
-            txtResolucao2.Size = new Size(88, 25);
+            txtResolucao2.Size = new Size(85, 17);
             txtResolucao2.TabIndex = 4;
             txtResolucao2.Text = "Resolução:";
             // 
             // txtSens2
             // 
             txtSens2.AutoSize = true;
-            txtSens2.Font = new Font("Poppins", 10F);
+            txtSens2.Font = new Font("Verdana", 10F);
             txtSens2.ForeColor = SystemColors.Control;
             txtSens2.Location = new Point(36, 53);
             txtSens2.Name = "txtSens2";
-            txtSens2.Size = new Size(105, 25);
+            txtSens2.Size = new Size(104, 17);
             txtSens2.TabIndex = 3;
             txtSens2.Text = "Sensibilidade:";
             // 
             // txtDpi2
             // 
             txtDpi2.AutoSize = true;
-            txtDpi2.Font = new Font("Poppins", 10F);
+            txtDpi2.Font = new Font("Verdana", 10F);
             txtDpi2.ForeColor = SystemColors.Control;
             txtDpi2.Location = new Point(36, 14);
             txtDpi2.Name = "txtDpi2";
-            txtDpi2.Size = new Size(108, 25);
+            txtDpi2.Size = new Size(111, 17);
             txtDpi2.TabIndex = 2;
             txtDpi2.Text = "DPI do Mouse:";
             // 
             // button1
             // 
             button1.BackColor = Color.FromArgb(46, 43, 194);
-            button1.Font = new Font("ModeSeven", 10F);
+            button1.Font = new Font("Nirmala UI Semilight", 12F, FontStyle.Bold);
             button1.ForeColor = SystemColors.Control;
-            button1.Location = new Point(-5, -13);
+            button1.Location = new Point(-6, -15);
             button1.Name = "button1";
             button1.Size = new Size(156, 55);
             button1.TabIndex = 16;

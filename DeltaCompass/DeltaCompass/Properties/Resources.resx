@@ -136,8 +136,14 @@
   <data name="shield-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shield-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cla-delta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cla-delta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="users-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\users-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="message-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\message-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,17 +169,26 @@
   <data name="eye-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="plus-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="square-delta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\square-delta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="apex-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apex-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="trash-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close-delta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close-delta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit-box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit-box.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="delta-logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delta-logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,11 +199,20 @@
   <data name="cslogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cslogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo-delta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo-delta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cla-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cla-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close-delta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close-delta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="delta-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delta-logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +220,8 @@
   <data name="Poppins_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Poppins-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="user-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="plus-delta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus-delta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MODES___" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MODES___.TTF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -214,7 +238,7 @@
   <data name="minus-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minus-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo-delta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo-delta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="editbox-delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editbox-delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

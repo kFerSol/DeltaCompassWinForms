@@ -33,3 +33,6 @@ C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.ComboBoxControl.resources
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.ComboBoxClass.resources
 C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.SensAplicadaAlert.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.FormVisualizarConfiguracao.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.FormOutroUsuarioConfig.resources
+C:\Users\Kaua\OneDrive\Área de Trabalho\DeltaCompass\DeltaCompass\DeltaCompass\obj\Debug\net8.0-windows\DeltaCompass.FormAdicionarSensibilidade.resources

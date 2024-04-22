@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             titleBarControl1 = new TitleBarControl();
             sidebarFundo = new Panel();
             sidebarFlowPanel = new FlowLayoutPanel();
@@ -50,6 +51,7 @@
             panel7 = new Panel();
             btnConfiguracao = new Button();
             sidebarTimer = new System.Windows.Forms.Timer(components);
+            toolTip1 = new ToolTip(components);
             sidebarFundo.SuspendLayout();
             sidebarFlowPanel.SuspendLayout();
             panel2.SuspendLayout();
@@ -135,9 +137,9 @@
             // button2
             // 
             button2.BackColor = Color.FromArgb(28, 28, 28);
-            button2.Font = new Font("Poppins", 11F);
+            button2.Font = new Font("Verdana", 11F);
             button2.ForeColor = Color.White;
-            button2.Image = Properties.Resources.delta_logo;
+            button2.Image = Properties.Resources.logo_delta1;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
             button2.Location = new Point(-8, -13);
             button2.Name = "button2";
@@ -160,7 +162,7 @@
             // btnPerfil
             // 
             btnPerfil.BackColor = Color.FromArgb(28, 28, 28);
-            btnPerfil.Font = new Font("Poppins", 11F);
+            btnPerfil.Font = new Font("Verdana", 11F);
             btnPerfil.ForeColor = Color.White;
             btnPerfil.Image = Properties.Resources.user_delta;
             btnPerfil.ImageAlign = ContentAlignment.MiddleLeft;
@@ -171,8 +173,11 @@
             btnPerfil.TabIndex = 0;
             btnPerfil.Text = "          Perfil";
             btnPerfil.TextAlign = ContentAlignment.MiddleLeft;
+            toolTip1.SetToolTip(btnPerfil, "Perfil do Usuário");
             btnPerfil.UseVisualStyleBackColor = false;
             btnPerfil.Click += btnPerfil_Click;
+            btnPerfil.MouseEnter += btnPerfil_MouseEnter;
+            btnPerfil.MouseLeave += btnPerfil_MouseLeave;
             // 
             // panel3
             // 
@@ -185,7 +190,7 @@
             // btnConversao
             // 
             btnConversao.BackColor = Color.FromArgb(28, 28, 28);
-            btnConversao.Font = new Font("Poppins", 11F);
+            btnConversao.Font = new Font("Verdana", 11F);
             btnConversao.ForeColor = Color.White;
             btnConversao.Image = Properties.Resources.sync_delta;
             btnConversao.ImageAlign = ContentAlignment.MiddleLeft;
@@ -196,8 +201,11 @@
             btnConversao.TabIndex = 0;
             btnConversao.Text = "          Conversão Automatizada";
             btnConversao.TextAlign = ContentAlignment.MiddleLeft;
+            toolTip1.SetToolTip(btnConversao, "Conversão de Sensibilidade");
             btnConversao.UseVisualStyleBackColor = false;
             btnConversao.Click += btnConversao_Click;
+            btnConversao.MouseEnter += btnConversao_MouseEnter;
+            btnConversao.MouseLeave += btnConversao_MouseLeave;
             // 
             // panel4
             // 
@@ -210,7 +218,7 @@
             // btnBusca
             // 
             btnBusca.BackColor = Color.FromArgb(28, 28, 28);
-            btnBusca.Font = new Font("Poppins", 11F);
+            btnBusca.Font = new Font("Verdana", 11F);
             btnBusca.ForeColor = Color.White;
             btnBusca.Image = Properties.Resources.users_delta;
             btnBusca.ImageAlign = ContentAlignment.MiddleLeft;
@@ -221,8 +229,11 @@
             btnBusca.TabIndex = 0;
             btnBusca.Text = "          Buscar Usuários";
             btnBusca.TextAlign = ContentAlignment.MiddleLeft;
+            toolTip1.SetToolTip(btnBusca, "Buscar outros usuários");
             btnBusca.UseVisualStyleBackColor = false;
             btnBusca.Click += btnBusca_Click;
+            btnBusca.MouseEnter += btnBusca_MouseEnter;
+            btnBusca.MouseLeave += btnBusca_MouseLeave;
             // 
             // panel5
             // 
@@ -235,7 +246,7 @@
             // btnCla
             // 
             btnCla.BackColor = Color.FromArgb(28, 28, 28);
-            btnCla.Font = new Font("Poppins", 11F);
+            btnCla.Font = new Font("Verdana", 11F);
             btnCla.ForeColor = Color.White;
             btnCla.Image = Properties.Resources.shield_delta;
             btnCla.ImageAlign = ContentAlignment.MiddleLeft;
@@ -246,8 +257,11 @@
             btnCla.TabIndex = 0;
             btnCla.Text = "          Clã";
             btnCla.TextAlign = ContentAlignment.MiddleLeft;
+            toolTip1.SetToolTip(btnCla, "Criação de Clã");
             btnCla.UseVisualStyleBackColor = false;
             btnCla.Click += btnCla_Click;
+            btnCla.MouseEnter += btnCla_MouseEnter;
+            btnCla.MouseLeave += btnCla_MouseLeave;
             // 
             // panel6
             // 
@@ -268,7 +282,7 @@
             // btnSuporte
             // 
             btnSuporte.BackColor = Color.FromArgb(28, 28, 28);
-            btnSuporte.Font = new Font("Poppins", 11F);
+            btnSuporte.Font = new Font("Verdana", 11F);
             btnSuporte.ForeColor = Color.White;
             btnSuporte.Image = Properties.Resources.message_delta;
             btnSuporte.ImageAlign = ContentAlignment.MiddleLeft;
@@ -279,8 +293,11 @@
             btnSuporte.TabIndex = 0;
             btnSuporte.Text = "          Fale Conosco";
             btnSuporte.TextAlign = ContentAlignment.MiddleLeft;
+            toolTip1.SetToolTip(btnSuporte, "Suporte");
             btnSuporte.UseVisualStyleBackColor = false;
             btnSuporte.Click += btnSuporte_Click;
+            btnSuporte.MouseEnter += btnSuporte_MouseEnter;
+            btnSuporte.MouseLeave += btnSuporte_MouseLeave;
             // 
             // panel7
             // 
@@ -293,7 +310,7 @@
             // btnConfiguracao
             // 
             btnConfiguracao.BackColor = Color.FromArgb(28, 28, 28);
-            btnConfiguracao.Font = new Font("Poppins", 11F);
+            btnConfiguracao.Font = new Font("Verdana", 11F);
             btnConfiguracao.ForeColor = Color.White;
             btnConfiguracao.Image = Properties.Resources.slider_delta;
             btnConfiguracao.ImageAlign = ContentAlignment.MiddleLeft;
@@ -304,8 +321,11 @@
             btnConfiguracao.TabIndex = 0;
             btnConfiguracao.Text = "          Configurações";
             btnConfiguracao.TextAlign = ContentAlignment.MiddleLeft;
+            toolTip1.SetToolTip(btnConfiguracao, "Configurações");
             btnConfiguracao.UseVisualStyleBackColor = false;
             btnConfiguracao.Click += btnConfiguracao_Click;
+            btnConfiguracao.MouseEnter += btnConfiguracao_MouseEnter;
+            btnConfiguracao.MouseLeave += btnConfiguracao_MouseLeave;
             // 
             // sidebarTimer
             // 
@@ -321,11 +341,11 @@
             Controls.Add(sidebarFundo);
             Controls.Add(titleBarControl1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MinimumSize = new Size(0, 486);
             Name = "FormPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            Resize += FormPaginaPerfil_Resize;
             sidebarFundo.ResumeLayout(false);
             sidebarFlowPanel.ResumeLayout(false);
             panel2.ResumeLayout(false);
@@ -362,5 +382,6 @@
         private Button btnConfiguracao;
         private System.Windows.Forms.Timer sidebarTimer;
         private PictureBox btnSidebar;
+        private ToolTip toolTip1;
     }
 }

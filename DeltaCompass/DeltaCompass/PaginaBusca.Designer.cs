@@ -38,13 +38,15 @@
             flowLayoutPanel1 = new FlowLayoutPanel();
             roundControl2 = new RoundControl();
             label8 = new Label();
-            textBox1 = new TextBox();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
+            textBoxControl1 = new TextBoxControl();
+            panel3 = new Panel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -70,12 +72,12 @@
             // btnBuscarCla
             // 
             btnBuscarCla.BackColor = Color.FromArgb(28, 28, 28);
-            btnBuscarCla.Font = new Font("Poppins", 12F);
+            btnBuscarCla.Font = new Font("Verdana", 12F, FontStyle.Bold);
             btnBuscarCla.ForeColor = SystemColors.Control;
-            btnBuscarCla.Location = new Point(-37, -6);
+            btnBuscarCla.Location = new Point(-38, -8);
             btnBuscarCla.Name = "btnBuscarCla";
             btnBuscarCla.Size = new Size(132, 65);
-            btnBuscarCla.TabIndex = 11;
+            btnBuscarCla.TabIndex = 25;
             btnBuscarCla.Text = "Clã";
             btnBuscarCla.UseVisualStyleBackColor = false;
             btnBuscarCla.Click += btnBuscarCla_Click;
@@ -104,9 +106,9 @@
             // btnBuscarUsuario
             // 
             btnBuscarUsuario.BackColor = Color.FromArgb(28, 28, 28);
-            btnBuscarUsuario.Font = new Font("Poppins", 12F);
+            btnBuscarUsuario.Font = new Font("Verdana", 12F, FontStyle.Bold);
             btnBuscarUsuario.ForeColor = SystemColors.Control;
-            btnBuscarUsuario.Location = new Point(-31, -6);
+            btnBuscarUsuario.Location = new Point(-33, -8);
             btnBuscarUsuario.Name = "btnBuscarUsuario";
             btnBuscarUsuario.Size = new Size(132, 65);
             btnBuscarUsuario.TabIndex = 11;
@@ -150,25 +152,13 @@
             // 
             label8.AutoSize = true;
             label8.BackColor = Color.FromArgb(39, 39, 39);
-            label8.Font = new Font("Poppins", 9F);
+            label8.Font = new Font("Verdana", 8F);
             label8.ForeColor = SystemColors.Control;
-            label8.Location = new Point(552, 99);
+            label8.Location = new Point(554, 105);
             label8.Name = "label8";
-            label8.Size = new Size(137, 22);
+            label8.Size = new Size(128, 13);
             label8.TabIndex = 15;
             label8.Text = "Histórico de Pesquisa";
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.FromArgb(29, 29, 29);
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Poppins", 10F);
-            textBox1.ForeColor = SystemColors.Control;
-            textBox1.Location = new Point(537, 24);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Jogo, usuário ou equipe...";
-            textBox1.Size = new Size(185, 20);
-            textBox1.TabIndex = 16;
             // 
             // pictureBox1
             // 
@@ -179,17 +169,50 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 17;
             pictureBox1.TabStop = false;
+            pictureBox1.MouseEnter += pictureBox1_MouseEnter;
+            pictureBox1.MouseLeave += pictureBox1_MouseLeave;
             // 
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.FromArgb(39, 39, 39);
-            pictureBox2.Image = Properties.Resources.trash;
-            pictureBox2.Location = new Point(690, 93);
+            pictureBox2.Image = Properties.Resources.trash_delta;
+            pictureBox2.Location = new Point(4, 3);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(29, 30);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 18;
             pictureBox2.TabStop = false;
+            pictureBox2.MouseEnter += pictureBox2_MouseEnter;
+            pictureBox2.MouseLeave += pictureBox2_MouseLeave;
+            // 
+            // textBoxControl1
+            // 
+            textBoxControl1.BackColor = Color.FromArgb(28, 28, 28);
+            textBoxControl1.BorderColor = Color.FromArgb(46, 43, 194);
+            textBoxControl1.BorderFocusColor = Color.FromArgb(100, 97, 220);
+            textBoxControl1.BorderRadius = 0;
+            textBoxControl1.BorderSize = 2;
+            textBoxControl1.Font = new Font("Segoe UI", 11F);
+            textBoxControl1.ForeColor = SystemColors.Control;
+            textBoxControl1.Location = new Point(537, 20);
+            textBoxControl1.Multiline = false;
+            textBoxControl1.Name = "textBoxControl1";
+            textBoxControl1.Padding = new Padding(7);
+            textBoxControl1.PlaceholderColor = Color.DarkGray;
+            textBoxControl1.PlaceholderText = "Usuários, jogos ou clãs.";
+            textBoxControl1.Size = new Size(196, 35);
+            textBoxControl1.TabIndex = 19;
+            textBoxControl1.Texts = "";
+            textBoxControl1.UnderlinedStyle = false;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.FromArgb(39, 39, 39);
+            panel3.Controls.Add(pictureBox2);
+            panel3.Location = new Point(685, 93);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(37, 36);
+            panel3.TabIndex = 20;
             // 
             // PaginaBusca
             // 
@@ -197,9 +220,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(28, 28, 28);
             ClientSize = new Size(753, 453);
-            Controls.Add(pictureBox2);
+            Controls.Add(panel3);
+            Controls.Add(textBoxControl1);
             Controls.Add(pictureBox1);
-            Controls.Add(textBox1);
             Controls.Add(label8);
             Controls.Add(roundControl2);
             Controls.Add(flowLayoutPanel1);
@@ -214,23 +237,25 @@
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
         private Panel panel1;
-        private Button btnBuscarCla;
         private Panel panel2;
         private Button btnBuscarUsuario;
         private RoundControl roundControl1;
         private FlowLayoutPanel flowLayoutPanel1;
         private RoundControl roundControl2;
         private Label label8;
-        private TextBox textBox1;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private Label label3;
         private Label label1;
+        private TextBoxControl textBoxControl1;
+        private Panel panel3;
+        private Button btnBuscarCla;
     }
 }

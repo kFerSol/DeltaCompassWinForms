@@ -32,7 +32,7 @@ namespace DeltaCompass
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            if (switchLock1 == true && switchLock2 == true) 
+            if (switchLock1 == true && switchLock2 == true)
             {
                 button1.BackColor = Color.FromArgb(28, 26, 115);
                 button1.ForeColor = Color.DarkGray;
@@ -96,7 +96,7 @@ namespace DeltaCompass
                     txtPolegadas1.Text = "Polegadas do Monitor: 34\"";
                     switchLock1 = true;
                     break;
-                case 1: 
+                case 1:
                     pictureBox2.Image = bmpMwiii;
                     txtDpi1.Text = "DPI do Mouse: 800";
                     txtSens1.Text = "Sensibilidade:";
@@ -106,7 +106,7 @@ namespace DeltaCompass
                     txtPolegadas1.Text = "Polegadas do Monitor: 34\"";
                     switchLock1 = true;
                     break;
-                case 2: 
+                case 2:
                     pictureBox2.Image = bmpCs;
                     txtDpi1.Text = "DPI do Mouse: 800";
                     txtSens1.Text = "Sensibilidade:";
@@ -116,7 +116,7 @@ namespace DeltaCompass
                     txtPolegadas1.Text = "Polegadas do Monitor: 34\"";
                     switchLock1 = true;
                     break;
-                case 3: 
+                case 3:
                     pictureBox2.Image = bmpPortal;
                     txtDpi1.Text = "DPI do Mouse: 800";
                     txtSens1.Text = "Sensibilidade:";
@@ -126,7 +126,7 @@ namespace DeltaCompass
                     txtPolegadas1.Text = "Polegadas do Monitor: 34\"";
                     switchLock1 = true;
                     break;
-                case 4: 
+                case 4:
                     pictureBox2.Image = bmpRainbow;
                     txtDpi1.Text = "DPI do Mouse: 800";
                     txtSens1.Text = "Sensibilidade:";
@@ -145,7 +145,7 @@ namespace DeltaCompass
         {
             switch (comboBoxControl2.SelectedIndex)
             {
-                case 0: 
+                case 0:
                     pictureBox3.Image = bmpApex;
                     txtDpi2.Text = "DPI do Mouse: 800";
                     txtSens2.Text = "Sensibilidade:";
@@ -196,7 +196,7 @@ namespace DeltaCompass
                     switchLock2 = true;
                     break;
             }
-            if(switchLock1 == true && switchLock2 == true)
+            if (switchLock1 == true && switchLock2 == true)
                 button1.BackColor = Color.FromArgb(46, 43, 194);
         }
 
@@ -215,8 +215,16 @@ namespace DeltaCompass
             if (travarBtn)
             {
                 txtSensValor2.ForeColor = Color.Lime;
-                this.Alert("Aplicada");
+                this.Alert("Conversão Aplicada");
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            int x;
+            x = comboBoxControl1.SelectedIndex;
+            comboBoxControl1.SelectedIndex = comboBoxControl2.SelectedIndex;
+            comboBoxControl2.SelectedIndex = x;
         }
     }
 }

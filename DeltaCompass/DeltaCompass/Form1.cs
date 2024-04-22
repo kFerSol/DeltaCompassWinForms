@@ -1,26 +1,50 @@
+using System;
+using System.Drawing;
+using System.Drawing.Text;
 using System.Drawing.Printing;
+using System.IO;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace DeltaCompass
 {
     public partial class FormPrincipal : Form
     {
-        PaginaPerfil perfil;
-        PaginaSuporte suporte;
-        PaginaConfiguracao configuracao;
-        PaginaCriacaoCla criacaoCla;
-        PaginaPerfilCla cla;
-        PaginaOutroPerfil outroPerfil;
-        PaginaConversao conversao;
-        PaginaBusca busca;
+        PaginaPerfil? perfil;
+        PaginaSuporte? suporte;
+        PaginaConfiguracao? configuracao;
+        PaginaCriacaoCla? criacaoCla;
+        PaginaPerfilCla? cla;
+        PaginaOutroPerfil? outroPerfil;
+        PaginaConversao? conversao;
+        PaginaBusca? busca;
 
         public FormPrincipal()
         {
             InitializeComponent();
             titleBarControl1.MinimizarPagina += TitleBarControl1_MinimizarPagina;
             titleBarControl1.MaximizarPagina += TitleBarControl1_MaximizarPagina;
-            this.Resize += FormPaginaPerfil_Resize;
             this.IsMdiContainer = true;
             MdiPropriedades();
+            criacaoCla = new PaginaCriacaoCla();
+            criacaoCla.CriarClaClicked += PaginaCriacaoCla_CriarClaClicked;
+        }
+
+        private void PaginaCriacaoCla_CriarClaClicked(object? sender, EventArgs e)
+        {
+            cla = Application.OpenForms.OfType<PaginaPerfilCla>().FirstOrDefault();
+
+            if (cla == null)
+            {
+                cla = new PaginaPerfilCla();
+                cla.MdiParent = this;
+                cla.Show();
+            }
+            else
+            {
+                cla.Activate();
+            }
+            criacaoCla.Close();
         }
 
         bool expandirSidebar = true;
@@ -49,11 +73,6 @@ namespace DeltaCompass
                 this.Size = workingArea.Size;
                 this.Location = workingArea.Location;
             }
-        }
-
-        private void FormPaginaPerfil_Resize(object sender, EventArgs e)
-        {
-
         }
 
         private void sidebarTimer_Tick(object sender, EventArgs e)
@@ -159,7 +178,7 @@ namespace DeltaCompass
 
         private void btnCla_Click(object sender, EventArgs e)
         {
-            if (criacaoCla == null)
+            if (criacaoCla != null)
             {
                 criacaoCla = new PaginaCriacaoCla();
                 criacaoCla.FormClosed += CriacaoCla_FormClosed;
@@ -218,6 +237,78 @@ namespace DeltaCompass
         private void Configuracao_FormClosed(object? sender, FormClosedEventArgs e)
         {
             configuracao = null;
+        }
+
+        private void btnPerfil_MouseEnter(object sender, EventArgs e)
+        {
+            btnPerfil.BackColor = Color.FromArgb(59, 59, 59);
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void btnPerfil_MouseLeave(object sender, EventArgs e)
+        {
+            btnPerfil.BackColor = Color.FromArgb(28, 28, 28);
+            this.Cursor = Cursors.Default;
+        }
+
+        private void btnConversao_MouseEnter(object sender, EventArgs e)
+        {
+            btnConversao.BackColor = Color.FromArgb(59, 59, 59);
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void btnConversao_MouseLeave(object sender, EventArgs e)
+        {
+            btnConversao.BackColor = Color.FromArgb(28, 28, 28);
+            this.Cursor = Cursors.Default;
+        }
+
+        private void btnBusca_MouseEnter(object sender, EventArgs e)
+        {
+            btnBusca.BackColor = Color.FromArgb(59, 59, 59);
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void btnBusca_MouseLeave(object sender, EventArgs e)
+        {
+            btnBusca.BackColor = Color.FromArgb(28, 28, 28);
+            this.Cursor = Cursors.Default;
+        }
+
+        private void btnCla_MouseEnter(object sender, EventArgs e)
+        {
+            btnCla.BackColor = Color.FromArgb(59, 59, 59);
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void btnCla_MouseLeave(object sender, EventArgs e)
+        {
+            btnCla.BackColor = Color.FromArgb(28, 28, 28);
+            this.Cursor = Cursors.Default;
+        }
+
+        private void btnSuporte_MouseEnter(object sender, EventArgs e)
+        {
+            btnSuporte.BackColor = Color.FromArgb(59, 59, 59);
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void btnSuporte_MouseLeave(object sender, EventArgs e)
+        {
+            btnSuporte.BackColor = Color.FromArgb(28, 28, 28);
+            this.Cursor = Cursors.Default;
+        }
+
+        private void btnConfiguracao_MouseEnter(object sender, EventArgs e)
+        {
+            btnConfiguracao.BackColor = Color.FromArgb(59, 59, 59);
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void btnConfiguracao_MouseLeave(object sender, EventArgs e)
+        {
+            btnConfiguracao.BackColor = Color.FromArgb(28, 28, 28);
+            this.Cursor = Cursors.Default;
         }
     }
 }
